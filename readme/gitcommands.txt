@@ -1,0 +1,299 @@
+cssc
+ create mode 100644 .sass-cache/5840606d3b4565e1506546a6cdadaae3b482a4b3/screen.
+scssc
+ create mode 100644 .sass-cache/da3f42353add6b000e60becff09f7c20d85f72c6/_utilit
+ies.scssc
+ create mode 100644 clone.html
+ create mode 100644 config.rb
+ create mode 100644 fonts/JOURNAL.TTF
+ create mode 100644 fonts/League_Gothic-webfont.eot
+ create mode 100644 fonts/League_Gothic-webfont.svg
+ create mode 100644 fonts/League_Gothic-webfont.ttf
+ create mode 100644 fonts/League_Gothic-webfont.woff
+ create mode 100644 fonts/aispec.ttf
+ create mode 100644 fonts/journal-webfont.eot
+ create mode 100644 fonts/journal-webfont.svg
+ create mode 100644 fonts/journal-webfont.ttf
+ create mode 100644 fonts/journal-webfont.woff
+ create mode 100644 html/Copy (2) of lessonboard.html
+ create mode 100644 html/Copy of header.html
+ create mode 100644 html/Copy of home.html
+ create mode 100644 html/Copy of lessonboard.html
+ create mode 100644 html/Copy of post_login.html
+ create mode 100644 html/footer.html
+ create mode 100644 html/header.html
+ create mode 100644 html/home.html
+ create mode 100644 html/lessonboard.html
+ create mode 100644 html/library.html
+ create mode 100644 html/modules.html
+ create mode 100644 html/mylessonboard.html
+ create mode 100644 html/pagination.html
+ create mode 100644 html/partnerpage.html
+ create mode 100644 html/post_login.html
+ create mode 100644 html/privacy.html
+ create mode 100644 html/registration/assoicateRegister.html
+ create mode 100644 html/registration/partnerterms.html
+ create mode 100644 html/registration/post_assoicateRegister.html
+ create mode 100644 html/registration/post_choir_registration.html
+ create mode 100644 html/registration/register.html
+ create mode 100644 html/registration/symphony_new.html
+ create mode 100644 html/social.html
+ create mode 100644 html/terms.html
+ create mode 100644 images/Thumbs.db
+ create mode 100644 images/ajax-loader.gif
+ create mode 100644 images/appadvice_logo.png
+ create mode 100644 images/arrow_gray.png
+ create mode 100644 images/arrow_mid_section.png
+ create mode 100644 images/body_bg_repeat.png
+ create mode 100644 images/breadcrumb_arrow.png
+ create mode 100644 images/button_close.png
+ create mode 100644 images/button_play_reviewtab.png
+ create mode 100644 images/chrome.png
+ create mode 100644 images/firefox.png
+ create mode 100644 images/fxd_hdr_dvdr.png
+ create mode 100644 images/fxd_hdr_icon_login.png
+ create mode 100644 images/fxd_hdr_icon_search.png
+ create mode 100644 images/fxd_hdr_logo.png
+ create mode 100644 images/fxd_hdr_search_bg.png
+ create mode 100644 images/guru_img.png
+ create mode 100644 images/icon_appstore.png
+ create mode 100644 images/icon_appstore_new.png
+ create mode 100644 images/icon_instructions_on.png
+ create mode 100644 images/icon_practice_off.png
+ create mode 100644 images/icon_practice_on.png
+ create mode 100644 images/icon_record.png
+ create mode 100644 images/icon_record_off.png
+ create mode 100644 images/icon_record_on.png
+ create mode 100644 images/icon_review_off.png
+ create mode 100644 images/icon_review_on.png
+ create mode 100644 images/img_available_on.png
+ create mode 100644 images/lesson_highlight.png
+ create mode 100644 images/library_KNS_img.jpg
+ create mode 100644 images/library_banner_bg.jpg
+ create mode 100644 images/mg_logo_small.png
+ create mode 100644 images/mglogo_gray_library.png
+ create mode 100644 images/mglogo_library.png
+ create mode 100644 images/mid_content_bg.png
+ create mode 100644 images/module_highlight.png
+ create mode 100644 images/module_img_shade.png
+ create mode 100644 images/module_tabla_guru_img.png
+ create mode 100644 images/module_tabla_img.png
+ create mode 100644 images/module_thumb.png
+ create mode 100644 images/musiguru_module_banner.png
+ create mode 100644 images/pttrn_bg.png
+ create mode 100644 images/signup_badge.png
+ create mode 100644 images/signup_badge_small.png
+ create mode 100644 images/signupnow_big_button_bg.png
+ create mode 100644 images/signupnow_small_button_bg.png
+ create mode 100644 images/slide_assorted-krtis-pack.jpg
+ create mode 100644 images/slide_carnatic-basic-level2.jpg
+ create mode 100644 images/slide_carnatic-basic-level3.jpg
+ create mode 100644 images/slider_dvdr.png
+ create mode 100644 images/slider_img_BMK.jpg
+ create mode 100644 images/slider_img_BhargaviChitravina.jpg
+ create mode 100644 images/slider_img_CarnaticBrothers.jpg
+ create mode 100644 images/slider_img_ChitravinaRavikiran.jpg
+ create mode 100644 images/slider_img_KNS.jpg
+ create mode 100644 images/slider_img_MG.jpg
+ create mode 100644 images/slider_img_NeyveliSanthanagopalan.jpg
+ create mode 100644 images/slider_img_SugunaPurushothaman.jpg
+ create mode 100644 images/slider_img_SugunaVaradachari.jpg
+ create mode 100644 images/slider_img_VSubramaniam.jpg
+ create mode 100644 images/slider_img_muthukumar2.jpg
+ create mode 100644 images/slider_next_arrow.png
+ create mode 100644 images/slider_prev_arrow.png
+ create mode 100644 images/strip_bundle-offer.png
+ create mode 100644 images/theeconomictimes_logo.png
+ create mode 100644 images/thehindu_logo.png
+ create mode 100644 images/top_section_img.png
+ create mode 100644 images/wsj_logo.png
+ create mode 100644 index.html
+ create mode 100644 index.php
+ create mode 100644 js/Copy of musiguru-controllers.js
+ create mode 100644 js/help.js
+ create mode 100644 js/libs/angular.min.js
+ create mode 100644 js/libs/async.js
+ create mode 100644 js/libs/flowplayer-3.2.12.min.js
+ create mode 100644 js/libs/foundation.min.js
+ create mode 100644 js/libs/foundation/foundation.abide.js
+ create mode 100644 js/libs/foundation/foundation.alerts.js
+ create mode 100644 js/libs/foundation/foundation.clearing.js
+ create mode 100644 js/libs/foundation/foundation.cookie.js
+ create mode 100644 js/libs/foundation/foundation.dropdown.js
+ create mode 100644 js/libs/foundation/foundation.forms.js
+ create mode 100644 js/libs/foundation/foundation.interchange.js
+ create mode 100644 js/libs/foundation/foundation.joyride.js
+ create mode 100644 js/libs/foundation/foundation.js
+ create mode 100644 js/libs/foundation/foundation.magellan.js
+ create mode 100644 js/libs/foundation/foundation.orbit.js
+ create mode 100644 js/libs/foundation/foundation.placeholder.js
+ create mode 100644 js/libs/foundation/foundation.reveal.js
+ create mode 100644 js/libs/foundation/foundation.section.js
+ create mode 100644 js/libs/foundation/foundation.tooltips.js
+ create mode 100644 js/libs/foundation/foundation.topbar.js
+ create mode 100644 js/libs/jScrollPane.js
+ create mode 100644 js/libs/jquery-1.7.1.js
+ create mode 100644 js/libs/jquery.diyslider.min.js
+ create mode 100644 js/libs/jquery.easing.1.3.js
+ create mode 100644 js/libs/jquery.galleryview-3.0-dev.js
+ create mode 100644 js/libs/jquery.mousewheel.js
+ create mode 100644 js/libs/jquery.timers-1.2.js
+ create mode 100644 js/libs/localStorageModule.js
+ create mode 100644 js/libs/parse-1.2.1.min.js
+ create mode 100644 js/musiguru-controllers.js
+ create mode 100644 js/musiguru-dataservice.js
+ create mode 100644 js/musiguru-directive.js
+ create mode 100644 js/musiguru-filter.js
+ create mode 100644 js/musiguru-model.js
+ create mode 100644 js/musiguru-routes.js
+ create mode 100644 js/musiguru.js
+ create mode 100644 js/musiguru__.js
+ create mode 100644 readme/MG3.0.xlsx
+ create mode 100644 readme/changelog
+ create mode 100644 readme/ghanachangefiles16-07-2013.zip
+ create mode 100644 s.html
+ create mode 100644 sass/.sass-cache/5840606d3b4565e1506546a6cdadaae3b482a4b3/ap
+p.scssc
+ create mode 100644 sass/.sass-cache/5840606d3b4565e1506546a6cdadaae3b482a4b3/ie
+.scssc
+ create mode 100644 sass/.sass-cache/5840606d3b4565e1506546a6cdadaae3b482a4b3/mu
+siguru.scssc
+ create mode 100644 sass/.sass-cache/5840606d3b4565e1506546a6cdadaae3b482a4b3/pr
+int.scssc
+ create mode 100644 sass/.sass-cache/5840606d3b4565e1506546a6cdadaae3b482a4b3/sc
+reen.scssc
+ create mode 100644 sass/app.css
+ create mode 100644 sass/app.scss
+ create mode 100644 sass/ie.css
+ create mode 100644 sass/ie.scss
+ create mode 100644 sass/ie_less_9.scss
+ create mode 100644 sass/musiguru.scss
+ create mode 100644 sass/pagination.scss
+ create mode 100644 sass/print.scss
+ create mode 100644 sass/screen.scss
+ create mode 100644 stylesheets/app.css
+ create mode 100644 stylesheets/bootstrap-responsive.css
+ create mode 100644 stylesheets/bootstrap.css
+ create mode 100644 stylesheets/common.css
+ create mode 100644 stylesheets/css
+ create mode 100644 stylesheets/foundation.css
+ create mode 100644 stylesheets/ie.css
+ create mode 100644 stylesheets/ie_less_9.css
+ create mode 100644 stylesheets/img-loader.gif
+ create mode 100644 stylesheets/jScrollPane.css
+ create mode 100644 stylesheets/jquery-ui.css
+ create mode 100644 stylesheets/jquery.galleryview-3.0-dev.css
+ create mode 100644 stylesheets/musiGuru_main.css
+ create mode 100644 stylesheets/musiguru.css
+ create mode 100644 stylesheets/pagination.css
+ create mode 100644 stylesheets/print.css
+ create mode 100644 stylesheets/screen.css
+ create mode 100644 stylesheets/sem.css
+ create mode 100644 stylesheets/single_page.css
+ create mode 100644 stylesheets/themes/dark/next.png
+ create mode 100644 stylesheets/themes/dark/panel-next-big.png
+ create mode 100644 stylesheets/themes/dark/panel-next.png
+ create mode 100644 stylesheets/themes/dark/panel-prev-big.png
+ create mode 100644 stylesheets/themes/dark/panel-prev.png
+ create mode 100644 stylesheets/themes/dark/pause-big.png
+ create mode 100644 stylesheets/themes/dark/pause.png
+ create mode 100644 stylesheets/themes/dark/play-big.png
+ create mode 100644 stylesheets/themes/dark/play.png
+ create mode 100644 stylesheets/themes/dark/prev.png
+ create mode 100644 stylesheets/themes/light/info.png
+ create mode 100644 stylesheets/themes/light/next.png
+ create mode 100644 stylesheets/themes/light/panel-next-big.png
+ create mode 100644 stylesheets/themes/light/panel-next.png
+ create mode 100644 stylesheets/themes/light/panel-prev-big.png
+ create mode 100644 stylesheets/themes/light/panel-prev.png
+ create mode 100644 stylesheets/themes/light/pause-big.png
+ create mode 100644 stylesheets/themes/light/pause.png
+ create mode 100644 stylesheets/themes/light/play-big.png
+ create mode 100644 stylesheets/themes/light/play.png
+ create mode 100644 stylesheets/themes/light/prev.png
+ create mode 100644 swf/flowplayer-3.2.16.swf
+ create mode 100644 swf/flowplayer.controls-3.2.15.swf
+
+ghanavela@REVATI /d/localmusi (master)
+$ git status
+# On branch master
+nothing to commit, working directory clean
+
+ghanavela@REVATI /d/localmusi (master)
+$ git push https://github.com/ghanavel/localmusi.git
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ghanavel
+Password for 'https://ghanavel@github.com':
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+Everything up-to-date
+
+ghanavela@REVATI /d/localmusi (master)
+$ ls -la
+total 6
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 .
+drwxr-xr-x   11 ghanavel Administ        0 Aug 19 19:06 ..
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:08 .git
+-rw-r--r--    1 ghanavel Administ      682 Jul 29 13:10 .htaccess
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 .sass-cache
+-rw-r--r--    1 ghanavel Administ     1583 Jul 30 16:40 clone.html
+-rw-r--r--    1 ghanavel Administ      914 Jul 29 13:10 config.rb
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 fonts
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 html
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 images
+-rw-r--r--    1 ghanavel Administ     5511 Aug 19 16:06 index.html
+-rw-r--r--    1 ghanavel Administ        0 Jul 29 13:10 index.php
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 js
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 readme
+-rw-r--r--    1 ghanavel Administ     1180 Jul 29 17:31 s.html
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 sass
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 stylesheets
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 swf
+
+ghanavela@REVATI /d/localmusi (master)
+$ cd .git
+
+ghanavela@REVATI /d/localmusi/.git (GIT_DIR!)
+$ ls -la
+total 13
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:08 .
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:07 ..
+-rw-r--r--    1 ghanavel Administ       10 Aug 19 19:08 COMMIT_EDITMSG
+-rw-r--r--    1 ghanavel Administ       23 Aug 19 19:06 HEAD
+-rw-r--r--    1 ghanavel Administ      331 Aug 19 19:06 config
+-rw-r--r--    1 ghanavel Administ       73 Aug 19 19:06 description
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:06 hooks
+-rw-r--r--    1 ghanavel Administ    20696 Aug 19 19:08 index
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:06 info
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:08 logs
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:08 objects
+drwxr-xr-x    1 ghanavel Administ        0 Aug 19 19:06 refs
+
+ghanavela@REVATI /d/localmusi/.git (GIT_DIR!)
+$ git push https://github.com/ghanavel/localmusi.git master
+Username for 'https://github.com': ghanavel
+Password for 'https://ghanavel@github.com':
+Counting objects: 225, done.
+Compressing objects: 100% (222/222), done.
+Writing objects: 100% (225/225), 2.55 MiB | 72.00 KiB/s, done.
+Total 225 (delta 24), reused 0 (delta 0)
+To https://github.com/ghanavel/localmusi.git
+ * [new branch]      master -> master
+
+ghanavela@REVATI /d/localmusi/.git (GIT_DIR!)
+$
+
+ghanavela@REVATI /d/localmusi/.git (GIT_DIR!)
