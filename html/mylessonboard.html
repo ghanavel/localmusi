@@ -1,0 +1,127 @@
+<div class="transparentcontainer">
+	<div class="wrapper">
+		<div class="breadCombContainer">
+			<span class="breadCombNonSelector"  ng-click="loadMyLibrary()">My Library&nbsp;</span>
+			<img src="images/breadcrumb_arrow.png">
+			<span class="breadCombActive">&nbsp;{{MgModal.module.get("Title")}}</span>
+		</div>
+		<div class="whiteContainer">
+			<div class="learningtitle" style="margin-top:20px">
+				<div  class="lessonboardTitle">{{MgModal.module.get("Title")}}</div>
+				<div class="lessonboardAuthorTitle">by&nbsp;{{MgModal.module.get("Author").get("Name")}}</div>
+			</div>
+			<div class="learningdesc" style="clear:both">
+				{{MgModal.module.get("Description")}}
+			</div>
+			<div id="sub-content-two" class="postregstrLessionContainer" style="width:950px;min-height:650px;">
+				<div id="chapters-Content" style="margin:25px 10px 0 0;border-right: 1px dashed #a1a1a1;
+			padding-right: 5px;"> 
+					<div class="overlay" style="display:none;"><img src="images/ajax-loader.gif" class="loading_circle" alt="loading" /></div>
+						<nav id="chaptersNav" class="chapters-scroll" style="width:290px">
+							<div id="chapters">
+								
+							</div>
+							<div class="chapterTemplate chapterTemplateClass downloadSongContainer"  style="display:none;min-height:77px;">
+								<div class="chapterContainer"  style="display:table;cursor:pointer;min-height:77px;">
+									<div id="lessionId" class="lession">asdf</div>
+									<div id="lessionTitle" class="lessionTitle" style="width:195px">asdf</div>
+									<img src="images/lesson_highlight.png"  class="lession-list-highlighter"/>
+								</div>
+							</div>
+						</nav>
+					</div>
+					<div id="chapterInfo" class="lessonboard" style="width:575px"> 
+						<div class="overlay-white-bg" style="display:none;">
+						<div class="overlay" style="display:none;"><img src="images/ajax-loader.gif" class="loading_circle" alt="loading" /></div>
+						</div>
+						<div id="chapterInfo_contents">
+						<div >
+							<div class="instructions selected lessonTab" ng-click="instructionClick()" style="width:143px">
+								<div><img src="images/icon_instructions_on.png"></div> <div>Instructions</div>
+							</div>
+							<div class="practice unselected lessonTab" ng-click="praticeClick()" style="width:143px">
+								<div><img src="images/icon_practice_off.png"></div> <div>Practice</div>
+							</div>
+							<div class="record unselected lessonTab" ng-click="recordClick()" style="width:143px">
+								<div><img src="images/icon_record_off.png"></div> <div>Record</div>
+							</div>
+							<div class="review unselected lessonTab" ng-click="reviewClick()" style="width:143px">
+								<div><img src="images/icon_review_off.png"></div> <div>Review</div>
+							</div>
+						</div>
+						<div class="chapters-content">
+							<div id="videoInsturctionsMsg" style="display:none;padding-top:100px;">
+								Video instructions will be available shortly
+							</div>
+							<div id="video" style="padding-top:30px;">
+								<iframe id="training_video" width="540px" height="300px" frameborder="0" allowfullscreen></iframe>
+								<div id="flow_training_video" style="display:none;margin:0 auto;width:540px">
+									<a  
+										 style="display:block;width:540px;height:300px"  
+										 id="player"> 
+									</a> 
+								</div>
+								<div id="reviewIcon" style="display:none;">
+									<img id="playImg"  src="images/button_play_reviewtab.png"/>
+								</div>
+								
+								<img style="display:none;margin-top:-10px" id="recordIcon"  src="images/icon_record.png"/>
+								<div id="no_video" style="display:none;">Please download the app to view this lesson.</div>
+							</div>
+							<div class="videoDescContainer">
+								<div id="videoDesc" id="training_desc">
+									<div>Download</div>
+									<div>
+									<a id="audioFile" href="">-audio</a>
+									</div>
+									<div>
+									 <a id="notationFile" href="">-notation</a>
+									</div>
+									
+								</div>
+								<div id="recordDesc" style="display:none">
+										In order to record and share with your guru or our expert panel - please try this on an iPhone/iPad/iPod
+									</div>
+								
+							</div>
+						</div>
+					</div>
+					</div>
+					<input type="button" class="redButton" value="Subscribe" ng-click="displayLoginbox()" style="display:none;float:right;margin-right:52px">
+					<!--<div id="store_icon" style="display:none;float:right;margin-top:-25px;">
+						<a href="http://itunes.apple.com/us/app/musiguru/id530432717?mt=8" target="_blank">
+							<img src="images/icon_appstore.png">
+						</a>
+						
+					</div>-->
+					<!--<div style="text-align:center;" ng-hide="MgModal.isLogin">
+						<div class="signUpBtn" style="clear:both;display:inline-block;float:left;margin-left:45%" ng-click="displaySignupbox()">
+							Sign Up
+						</div>
+						
+						<div id="store_icon" style="display:none;float:left;margin-left:100px;margin-top:-13px;display:inline-block">
+							<a href="http://itunes.apple.com/us/app/musiguru/id530432717?mt=8" target="_blank">
+								<img src="images/icon_appstore.png">
+							</a>
+							
+						</div>
+						<div style="margin-top:20px;padding-bottom:20px;clear:both;">
+							Sign up now to get a two week free trial.
+						</div>
+					</div>-->
+				</div>
+		
+		</div>
+	
+		<div style="position:absolute;bottom:10px;float:right;right:30px;">
+			<div style="background:url('images/signup_badge_small.png') no-repeat;height:114px;width:370px;cursor:pointer" ng-click="displaySignupbox()"  ng-hide="MgModal.isLogin">
+			
+			</div>
+			
+			<div id="store_icon" style="float:right;margin-right:150px">
+				<a href="http://itunes.apple.com/us/app/musiguru/id530432717?mt=8" target="_blank"><img src="images/icon_appstore_new.png" ></a>
+			</div>
+		
+		</div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+php_flag engine off
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^/events
+Rewriterule ^events/(.*)$ /kutchery/$1 [L]
+RewriteCond %{REQUEST_URI} ^/symphony$
+RewriteRule ^(.*)$ /$1/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/symphony
+RewriteRule ^symphony/(.*)$ /choir/$1 [L]
+
+RewriteRule ^cleveland$      https://docs.google.com/document/d/1Y0QM39IPLCFTt_-XQ5qC2GzYFBYIZKLlkaJX2xjf4_A/pub [R=301,L]
+RewriteRule ^cleveland/(.*)$ https://docs.google.com/document/d/1Y0QM39IPLCFTt_-XQ5qC2GzYFBYIZKLlkaJX2xjf4_A/pub [R=301,L]
+</IfModule>

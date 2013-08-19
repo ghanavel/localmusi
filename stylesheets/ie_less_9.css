@@ -1,0 +1,22 @@
+/* line 1, ../sass/ie_less_9.scss */
+
+
+#ie_lt_e_8 {
+  margin: 0 auto;
+  width: 960px;
+  /*border: 1px solid;*/
+  text-align: center;
+  /*margin-top:100px;*/
+
+}
+
+
+.ie_lt_e_8_mes{
+	border: 1px solid;
+	height: 228px;
+	width: 956px;
+	font-size: 25px;
+	margin-top: 40px;
+
+
+}

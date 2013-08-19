@@ -1,0 +1,126 @@
+<div class="transparentcontainer">
+<div class="sec_content">
+
+<div class="symphonyContainer" >
+<div ng-hide="MgModal.isLogin" class="symphonyLeftContainer">
+	<div>Already a Musiguru user?</div>
+	<div class="loginLink" ng-click="displayLoginbox()"><u>Login</u></div>
+</div>
+<div class="symphonyRightContainer">
+	<form class="login" ng-submit="saveEnrollment()" id="myForm">
+		<fieldset class="boxBody">
+			<div class="registrationTitle">Registration for Musiguru Carnatic Symphony</div>
+			<div class = "registrationcontent"> The Musiguru Carnatic Symphony is open to all students, below the age of 16, from North America. In order to participate you only need to be able to sing geethams and small songs like the Nottu Svarams.</div>
+		  <label>Email (Note: Parent’s email for children below 13 years) :</label>
+		  <input type="email" id="enroll-username"  placeholder="johnsmith@gmail.com" required>
+		  <div class="formCntrlDivContanier">
+		  	  <div class="cntrlLeft">
+			  <label>First Name :</label>
+			  <input type="text" id="enroll-firstname" placeholder="John" required>
+			 </div> 
+			 <div class="cntrlRight">
+			  <label>Last Name :</label>
+			  <input type="text" id="enroll-lastname" placeholder="Smith" required>
+			 </div>
+		  </div>
+		  <div style="clear:both;"/>
+		  <div id="password-box" class="formCntrlDivContanier">
+		  	  <div class="cntrlLeft">
+		  		<label>Password :</label>
+		  		<input type="password" id="enroll-password" placeholder="Password" required="">
+		  	  </div>
+		  	  <div class="cntrlRight">
+				  <label>Confirm Password :</label>
+				  <input type="password" id="enroll-confpassword"  placeholder="Password" required="">
+			  </div>
+		   </div>
+		   <div style="clear:both"/>
+		  <label>Age :</label>
+		  <input type="number" id="enroll-age"  placeholder="Age"  min="1" max="100" required>
+		   <div class="formCntrlDivContanier">
+		   	 <label>Address :</label>
+			  <textarea rows="4" cols="50"  id="enroll-address" text=""></textarea>
+		   </div>
+		  <div class="formCntrlDivContanier">
+		   	 <label>City/State :</label>
+			  <input type="text" id="enroll-city" placeholder="eg. San Jose, CA" required>
+		   </div>
+		   <div class="formCntrlDivContanier">
+		   	 <label>Phone :</label>
+			  <input type="tel" id="enroll-phone" placeholder="+1 555 123 1234">
+		   </div>
+		 <!--  <label>Guru's Name:</label>
+		  <input type="text" id="enroll-guruname" tabindex="7" placeholder="Guru's Name" required> -->
+ <div class="formCntrlDivContanier" style="display:none;">
+		  <label>Please select the location where you would like to perform (Please note, our locations are subject to change and if selected we will try to accomadate you in the nearest venue)</label>
+		  <select type="text" id="enroll-location" required>
+		  	 <option value = "none" selected>Select</option>
+		  	 <option value = "Cleveland">Cleveland</option>
+		  	 <option value = "Detroit">Detroit</option>
+		  	 <option value = "New York">New York</option>
+		  	 <option value = "Delaware">Delaware</option>
+		  	 <option value = "Minneapolis">Minneapolis</option>
+		  </select>
+		</div>
+
+		<div class="formCntrlDivContanier" id="participationDiv">
+		  <label>Participation : </label>
+		  <input type="radio" name="symphony_participate" id="music_school1" value="as_an_individual" checked="true">&nbsp;As an Individual &nbsp;&nbsp;&nbsp;</input>
+		  <input type="radio" name="symphony_participate" id="music_school" value="a_music_school" >&nbsp;Through a Music School</<input> 
+		  
+		</div>
+		<div id="gurudetails">
+			<label id="label-schoolname">School's Name :</label>
+				<input type="text" id="enroll-schoolname" placeholder="School's Name" >
+			<label>Guru's Name :</label>
+				<input type="text" id="enroll-guruname" placeholder="Guru's Name" >
+			<label id="label-gurumail">Guru's Email: (Note: An email will be requested from your Guru to confirm your participation.)</label> 
+				<input type="email" id="enroll-guruemail"placeholder="Guru's Email" > 
+			
+			
+			<!-- 	<span id="enroll-guruemail-note">(Note: An email will be requested from your Guru to confirm your participation.)</span>
+			 -->
+				
+		</div>
+
+		<div class="formCntrlDivContanier" id="trainedDiv">
+		  <label>Trained in : </label>
+		  <input type="checkbox" id="trained" name="trained" value="Carnatic">&nbsp;Carnatic&nbsp;&nbsp;&nbsp;</input>
+		  <input type="checkbox" id="trained" name="trained" value="Western Classical">&nbsp;Western Classical</input>
+		  
+		</div>
+		
+		<div class="formCntrlDivContanier" id="skillsDiv">
+		  <label>Skills : </label>
+		  <input type="checkbox" id="iam" name="iam" value="vocalist">&nbsp;Vocalist&nbsp;&nbsp;&nbsp;</input>
+		  <input type="checkbox" id="iam" name="iam" value="instrumentalist">&nbsp;Instrumentalist</input>
+		  <div class="formCntrlDivContanier" id="instruments_box" style="display:none;">
+		  <label>Enter Instruments:</label>
+				<input type="text" id="instuments"placeholder="eg.Mridangam,Veena,Violin etc." >
+			</div>
+		</div>
+
+		
+
+		  <label style="margin-top:10px;">Brief description about the participant :</label>
+		  <textarea rows="4" cols="50"  id="enroll-desc" ></textarea><br>
+		  <div class="formCntrlDivContanier">
+		  	  <div class="cntrlLeft">
+		 		 <input type="checkbox" name="conditions"  required>
+	 		</div>
+	 		<div class="cntrlRight termsDiv">
+		  		<a href="../html/terms.html" class="termsLink" target="_blank">I have read and accept the terms and conditions for the Musiguru program.</a>
+		  	</div>
+		</div>
+		   <input type="submit" class="btnLogin" value="Register" >
+		  <!--  <div class="clearbutton centerButton" onclick="javascript:$('#myForm').submit();">
+				<a class="GlobalYellowButton" href="javascript:void(0)" ><span>Register</span></a> 
+			</div> -->
+
+		</fieldset>
+		
+	</form>
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,170 @@
+<div class="container"	>
+	<div class="grayContainer" style="margin-bottom:0">
+		<div class="news" ng-click="loadLessonBoard('0')">
+			<img src="images/slide_assorted-krtis-pack.jpg">
+		</div>
+		<div class="news" ng-click="loadLessonBoard('1')">
+			<img src="images/slide_carnatic-basic-level2.jpg">
+		</div>
+		<div class="news" ng-click="loadLessonBoard('2')">
+			<img src="images/slide_carnatic-basic-level3.jpg">
+		</div>
+	</div>
+	
+	
+	<div style="width: 898px;margin: 0 auto;min-height:550px;">
+			<div  ng-show="showFlag"  style="padding-top:20px">
+				<div class="learningtitle">
+						My Students
+				</div>
+				<div class="moduleOuterContainer" style="text-align:center;padding:30px 0;width:898px" ng-hide="hasStudents">
+						There are no students recommended by you.
+				</div>
+				<div  class="moduleOuterContainer"  style="padding:10px;width:878px">
+					<div class="studentHeaderContainer" ng-show="hasStudents">
+						<div class="name" > Student Name
+						</div>
+						<div class="email"> Email
+						</div>
+					</div>
+					<div ng-repeat="student in students" >
+						<div  class="studentRow">
+							<div class="name">{{student.get("name")}}
+							</div>
+							<div class="email">{{student.get("email")}}
+							</div>
+						</div>
+					</div>
+				
+				<div style="padding-top:20px" class="studentContainer">
+					<div style="color:#a12828;font-size:24px;padding:10px">Add Student</div>
+					<form class="login"  ng-submit="sendOfferToStudent()"  id="myForm">
+						<fieldset class="boxBody" style="border:0;background-color:#f2f2f2">
+							<div class="formCntrlDivContanier" style="width:100%;display:table;">
+								  <span style="margin-left:80px">Name :</span>
+								  <input type="text" id="offerStudentName" placeholder="John" required><br>
+								   <span style="margin-left:80px">Email :</span>
+								  <input type="email" id="offerStudentEmail" placeholder="johnsmith@gmail.com" required><br>
+								  <span>Personal Message :</span>
+								  <textarea rows="10" cols="50" id="offerStudentDesc" placeholder="Personal Message" text=""  style="display:inline;height:50%"></textarea>
+								
+								 
+								 
+							  </div>
+							  <input type="submit" class="btnLogin" value="Submit" >
+						</fieldset>
+					</form>
+				</div>
+				</div>
+			</div>
+		<!--
+		<div class="mail_activate_button" ng-click="activateAcc()">Activate</div>
+		-->
+	
+		<div>
+			<img src="images/ajax-loader.gif" class="postlgn_library_loading_circle" alt="loading" />
+		</div>
+
+		<div style="width: 100%;" class="post_login_section">
+
+				<div class="post_login_section_content">
+					<div  ng-hide="showFlag" class = "verify_mail_section"  style="display:none">
+						<div class = "verify_mail_dec">
+							<div>
+								<p class = "verify_mail_mes">
+									Please verify your email address to complete the activation of your Musiguru Account.	
+
+								</p>
+								
+								<p class="verify_mail_notes">
+									(To do so, please check your inbox for an email from Musiguru, follow the link given in the email to complete the activation)
+
+								</p>
+							</div>
+
+												
+							<div id="buttonsection">
+								<div class="resend" ng-click="resendEmail()">Resend the email</div>
+								<div class="mail_activate_button" ng-click="activateAcc()">I have completed verification</div>
+							</div>
+						</div>
+					</div>
+					
+					<div ng-show="showFlag"  style="display:none" > 
+						<div class="learningtitle" style="padding:0 10px 10px 10px;">
+								My Library 	
+						</div>
+
+						<div class="moduleOuterContainer"  style="min-height:500px;"  ng-show="hasData">
+							<div class="moduleCotainer"  ng-repeat="module in MgModal.user.library" ng-click="onModuleclick(module)">
+								<img ng-src="{{getImageUrl(module)}}" height="100px" class="moduleImg"/>
+								<div class="moduleData" style="width:680px">
+									<div class="moduleTitle">{{module.get("Title")}}</div>
+									<div class="categoryDesc">	{{module.get("Description")}}
+										lorem
+
+
+									</div>
+
+									<div class="moduleAuthor" style="font-size: 16px;color: #f47721;">by &nbsp;{{module.get("Author").get("Name")}}</div>
+
+
+
+									<div class="moduleAuthor"   style="display:none">by &nbsp;{{module.get("Author").get("Name")}}</div>
+								</div>
+								<div class="modulePriceData" ng-show="MgModal.user.availDiscount">
+									<!-- <span class="offerTitleThree">$150</span>
+									<span class="offerTitleFour">{{price}}</span>
+									<span class="offerTitleFive">/&nbsp; 6&nbsp; months</span> -->
+									<br><br>
+									<span class="moduleAuthor" style="font-size: 16px;color: #f47721;">by &nbsp;{{module.get("Author").get("Name")}}</span>
+								</div>
+								<div class="modulePriceData" ng-hide="MgModal.user.availDiscount">
+									<!-- <span class="offerTitleThree" style="text-decoration:none">$150</span>
+									<span class="offerTitleFour">{{price}}</span>
+									<span class="offerTitleFive">/&nbsp; 6&nbsp; months</span> -->
+									<!--
+									<br><br>
+									<span class="moduleAuthor" style="font-size: 16px;color: #f47721;">by &nbsp;{{module.get("Author").get("Name")}}</span>
+								-->
+								</div>
+								<div class="moduleArrow">
+									<img src="images/arrow_gray.png"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="moduleOuterContainer" style="text-align:center;padding:10px;width:880px" ng-hide="hasData">
+							<div>
+								To get started, pick a lesson module from our extensive library.
+							</div>
+							<div>
+								<a href="javascript:void(0)" ng-click="loadLibrary()">Explore Library</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+	<div style="background-color:#e9e9e9;padding:0 30px 30px 30px;margin-top:20px">
+			<div class="learningtitle">FAQ</div>
+				<div class="faq_area">
+					<ol>
+						<li class="faq_q">Where do I download the app from?
+						<div class="faq_a">Our app is currently available in the Apple Store <a href="http://itunes.apple.com/in/app/musiguru/id530432717?mt=8" onclick="recordOutboundLink(this, 'App Store', 'FAQ Link');return false;">here</a>.</div>
+						</li>
+						<li class="faq_q">What musical forms or instruments are available?
+						<div class="faq_a">The Musiguru app series will introduce learning for a number of musical forms or instruments on an ongoing basis. You can preview the currently available courses in the Lesson Library above.</div></li>
+						<li class="faq_q">I have feedback on the application, who can I contact?
+						<div class="faq_a">We value feedback from our users and believe that it will be a critical part of how the app shapes up going forward. You can email us at <a href="mailto:musiguru@levitum.com?Subject=User%20Feedback" onclick="recordOutboundLink(this, 'Mail-To', 'User Feedback');return false;">musiguru@levitum.com</a> with your feedback.</div></li>
+
+						<li class="faq_q">I am a musician and am interested in providing lessons through Musiguru?<div class="faq_a">We will be more than happy to discuss how your training lessons can be provided through Musiguru. Please contact us at "musiguru@levitum.com" with subject "Musician Inquiry" or click <a href="mailto:musiguru@levitum.com?Subject=Musician%20Inquiry" onclick="recordOutboundLink(this, 'Mail-To', 'Musician Inquiry - FAQ');return false;">here</a>.</div></li>
+
+					</ol>
+				</div>
+			</div>
+	</div>
+</div>

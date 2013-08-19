@@ -1,0 +1,1311 @@
+@charset "IBM437";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+@import url(https://fonts.googleapis.com/css?family=Ruluko);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+/* line 42, ../sass/musiGuru_main.scss */
+body {
+  margin: 0px auto;
+  padding: 0px;
+  width: 960px;
+  background: url("../images/body_bg_repeat.png") repeat scroll 0 0 transparent;
+  height: auto;
+  overflow: auto;
+}
+
+/* line 51, ../sass/musiGuru_main.scss */
+.bodyDiv {
+  width: 960px;
+  border-left: 1px solid #d9dfe3;
+  border-right: 1px solid #d9dfe3;
+  background-color: rgba(255, 255, 255, 0.4);
+  min-height: 100px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+/* line 68, ../sass/musiGuru_main.scss */
+hr {
+  /*display: inline;
+   float: left;
+   width: 958px;*/
+  border: 1px #A12828 dashed;
+}
+
+/* line 76, ../sass/musiGuru_main.scss */
+#sub-content-two {
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+}
+/* line 78, ../sass/musiGuru_main.scss */
+#sub-content-two #Lesson-Content {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.65);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: auto;
+  float: left;
+  margin-right: 25px;
+  margin-left: 5px;
+}
+/* line 89, ../sass/musiGuru_main.scss */
+#sub-content-two #chapters-Content {
+  width: 262px;
+  background: rgba(255, 255, 255, 0.65);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: auto;
+  float: left;
+  margin-right: 25px;
+}
+
+/* line 104, ../sass/musiGuru_main.scss */
+#chapterInfo {
+  width: 338px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: hide;
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+/* line 120, ../sass/musiGuru_main.scss */
+#sub-content-five {
+  display: inline;
+  height: 50;
+  text-align: center;
+}
+/* line 121, ../sass/musiGuru_main.scss */
+#sub-content-five #libraryDiv {
+  width: 310px;
+  float: left;
+  margin-right: 25px;
+  height: 135px;
+}
+/* line 127, ../sass/musiGuru_main.scss */
+#sub-content-five #lessionsDiv {
+  width: 252px;
+  float: left;
+}
+/* line 131, ../sass/musiGuru_main.scss */
+#sub-content-five #lessionDesDiv {
+  width: 355px;
+  float: left;
+}
+
+/* line 140, ../sass/musiGuru_main.scss */
+.chaptersInfo {
+  font-weight: bold;
+  position: relative;
+}
+/* line 141, ../sass/musiGuru_main.scss */
+.chaptersInfo span {
+  font-size: 46px;
+  left: 11px;
+  font-family: 'journal';
+  font-weight: normal;
+  color: #a12828;
+  top: -30px;
+}
+/* line 150, ../sass/musiGuru_main.scss */
+.chaptersInfo p {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  top: -40px;
+}
+/* line 154, ../sass/musiGuru_main.scss */
+.chaptersInfo .dividerImage {
+  z-index: -3;
+  position: absolute;
+  top: 10px;
+  height: 670px;
+  overflow: hidden;
+  left: -4px;
+}
+/* line 163, ../sass/musiGuru_main.scss */
+.chaptersInfo .lessionDivArrowImg {
+  left: 235px;
+}
+
+/* line 172, ../sass/musiGuru_main.scss */
+.chapterDescInfo {
+  font-weight: bold;
+  :
+	position: relative;
+  margin-left: 20px;
+}
+/* line 173, ../sass/musiGuru_main.scss */
+.chapterDescInfo span {
+  font-size: 46px;
+  left: 11px;
+  font-family: 'journal';
+  font-weight: normal;
+  color: #a12828;
+  margin-left: 20px;
+}
+/* line 181, ../sass/musiGuru_main.scss */
+.chapterDescInfo p {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  margin-left: 20px;
+}
+/* line 185, ../sass/musiGuru_main.scss */
+.chapterDescInfo img {
+  left: 250px;
+  position: absolute;
+  top: -10px;
+}
+
+/* line 194, ../sass/musiGuru_main.scss */
+#sub-content-one, #sub-content-four {
+  width: 960px;
+  float: left;
+}
+
+/* line 200, ../sass/musiGuru_main.scss */
+#sub-content-three {
+  background: #A12828 !important;
+  width: 960px;
+  color: #FFFFFF;
+  position: relative;
+  padding-bottom: 20px;
+  margin-top: -250px;
+  float: left;
+}
+
+/* line 209, ../sass/musiGuru_main.scss */
+#footer {
+  width: 960px;
+  float: left;
+  text-align: center;
+}
+
+/* line 221, ../sass/musiGuru_main.scss */
+a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+}
+
+/* line 229, ../sass/musiGuru_main.scss */
+nav {
+  display: block;
+  padding: 0px 0px;
+  width: 100%;
+}
+/* line 230, ../sass/musiGuru_main.scss */
+nav ul#chapters {
+  list-style: none;
+  font-family: "Calibri", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 232, ../sass/musiGuru_main.scss */
+nav ul#chapters li {
+  margin-top: -10px;
+  height: 87px;
+  border-bottom: 1px solid #d9e2eb;
+  display: block;
+}
+/* line 237, ../sass/musiGuru_main.scss */
+nav ul#chapters li a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+/* line 246, ../sass/musiGuru_main.scss */
+nav ul#chapters li a:hover {
+  color: #999;
+}
+
+/* line 257, ../sass/musiGuru_main.scss */
+.lession-list-highlighter {
+  /*float:right;*/
+}
+
+/* line 261, ../sass/musiGuru_main.scss */
+.unselected-lession-list {
+  color: #333333;
+}
+/* line 263, ../sass/musiGuru_main.scss */
+.unselected-lession-list img.lession-list-highlighter {
+  display: none;
+}
+/* line 267, ../sass/musiGuru_main.scss */
+.unselected-lession-list .lession {
+  color: #DEE0E2;
+}
+
+/* line 273, ../sass/musiGuru_main.scss */
+.selected-lession-list {
+  color: #000;
+}
+/* line 275, ../sass/musiGuru_main.scss */
+.selected-lession-list img.lession-list-highlighter {
+  display: block;
+}
+/* line 279, ../sass/musiGuru_main.scss */
+.selected-lession-list .lession {
+  color: #666;
+}
+
+/* line 286, ../sass/musiGuru_main.scss */
+.header-section {
+  background: url("../images/top_section_img.png") !important;
+  background-repeat: no-repeat;
+  height: 514px !important;
+}
+
+/* line 292, ../sass/musiGuru_main.scss */
+#abc {
+  height: 45px;
+  left: 706px;
+  position: relative;
+  top: 315px;
+}
+
+/* line 303, ../sass/musiGuru_main.scss */
+.Lesson-Module-guru {
+  margin: 2px 0px 0px 0px;
+}
+/* line 306, ../sass/musiGuru_main.scss */
+.Lesson-Module-guru img {
+  margin: 3px 6px -3px 7px;
+}
+
+/* line 311, ../sass/musiGuru_main.scss */
+.Lesson-Module {
+  margin: 0px 0px 0px 0px;
+  display: block;
+  height: 60px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+/* line 321, ../sass/musiGuru_main.scss */
+.guru-name {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+  position: relative;
+  top: -12px;
+}
+
+/* line 327, ../sass/musiGuru_main.scss */
+.lesson-title {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+  position: relative;
+  top: -60px;
+  text-align: right;
+  color: #fff;
+  margin-right: 25px;
+}
+
+/* line 340, ../sass/musiGuru_main.scss */
+#artists-left {
+  float: left;
+  margin: 20px;
+}
+
+/* line 345, ../sass/musiGuru_main.scss */
+#artists-right {
+  float: right;
+  width: 465px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+/* line 353, ../sass/musiGuru_main.scss */
+#artists-right > div {
+  min-height: 80px;
+  width: auto;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+/* line 360, ../sass/musiGuru_main.scss */
+.artistImage-div {
+  float: left;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  margin-right: 10px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 5px solid #e8e8e8;
+}
+
+/* line 371, ../sass/musiGuru_main.scss */
+.artistImage-div img {
+  width: 58px;
+}
+
+/* line 376, ../sass/musiGuru_main.scss */
+.artist-about {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+/* line 383, ../sass/musiGuru_main.scss */
+.artistImage-div-small {
+  float: left;
+  position: relative;
+  width: 34px;
+  height: 34px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 3px solid #ffffff;
+}
+
+/* line 394, ../sass/musiGuru_main.scss */
+.artistImage-div-small img {
+  width: 34px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 400, ../sass/musiGuru_main.scss */
+.artist-about-small {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+/* line 407, ../sass/musiGuru_main.scss */
+#training_title {
+  display: none;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 415, ../sass/musiGuru_main.scss */
+#no_video {
+  padding-top: 200px;
+}
+
+/* line 418, ../sass/musiGuru_main.scss */
+#videoDesc {
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding-top: 5px;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+}
+
+/* line 427, ../sass/musiGuru_main.scss */
+#video {
+  margin-top: 30px;
+}
+
+/* line 430, ../sass/musiGuru_main.scss */
+iframe {
+  border: 0px gray none;
+}
+
+/* line 435, ../sass/musiGuru_main.scss */
+.tabrow {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  font-size: 8px;
+  font-family: arial;
+  position: relative;
+  margin-top: -10px;
+  margin-left: -2px;
+}
+
+/* line 451, ../sass/musiGuru_main.scss */
+.tabrow li {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #ececec), color-stop(100%, #d1d1d1));
+  background: -webkit-linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  background: -moz-linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  background: -o-linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  background: linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 white;
+  text-shadow: 0 1px #FFF;
+  margin: 0px;
+  padding: 0 15px;
+}
+
+/* line 465, ../sass/musiGuru_main.scss */
+.tabrow a {
+  color: #555;
+  text-decoration: none;
+}
+
+/* line 470, ../sass/musiGuru_main.scss */
+.tabrow li.selected {
+  background: #FFF;
+  color: #333;
+  z-index: 2;
+  border-top-color: #FFF;
+}
+
+/* line 477, ../sass/musiGuru_main.scss */
+.tabrow:before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-top: 1px solid #AAA;
+  z-index: 1;
+}
+
+/* line 488, ../sass/musiGuru_main.scss */
+.tabrow li:before,
+.tabrow li:after {
+  border: 1px solid #AAA;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+  height: 6px;
+  content: " ";
+}
+
+/* line 497, ../sass/musiGuru_main.scss */
+.tabrow li:before {
+  left: -7px;
+  border-top-right-radius: 1px;
+  border-width: 1px 1px 0px 0px;
+  box-shadow: 1px 0px 0 #ECECEC;
+}
+
+/* line 504, ../sass/musiGuru_main.scss */
+.tabrow li:after {
+  right: -7px;
+  border-top-left-radius: 1px;
+  border-width: 1px 0px 0px 1px;
+  box-shadow: -1px 0px 0 #ECECEC;
+}
+
+/* line 511, ../sass/musiGuru_main.scss */
+.tabrow li.selected:before {
+  box-shadow: 2px 0px 0 #FFF;
+}
+
+/* line 515, ../sass/musiGuru_main.scss */
+.tabrow li.selected:after {
+  box-shadow: -2px 0px 0 #FFF;
+}
+
+/* line 519, ../sass/musiGuru_main.scss */
+.lession {
+  font-family: "LeagueGothic";
+  font-weight: normal;
+  font-size: 48px;
+  padding-right: 10px;
+  color: #dee0e2;
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+/* line 534, ../sass/musiGuru_main.scss */
+.lessionTitle {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+  color: #333333;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  width: 63%;
+  height: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+/* line 547, ../sass/musiGuru_main.scss */
+.Lesson-Content-Container {
+  border-bottom: 1px solid #D9E2EB;
+  background: none repeat scroll 0 0 #E9E8E7;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+/* line 557, ../sass/musiGuru_main.scss */
+#content {
+  margin-top: -20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* line 562, ../sass/musiGuru_main.scss */
+.chapters-content {
+  height: 450px;
+  border-radius: 5px;
+  clear: both;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+/* line 570, ../sass/musiGuru_main.scss */
+.instructions {
+  height: 50px;
+  width: 89px;
+  font-family: Arial;
+  font-size: 12px;
+  border-top-left-radius: 5px;
+  float: left;
+}
+/* line 577, ../sass/musiGuru_main.scss */
+.instructions img {
+  margin-top: 6px;
+}
+
+/* line 582, ../sass/musiGuru_main.scss */
+.practice {
+  height: 50px;
+  width: 82px;
+  font-family: Arial;
+  font-size: 12px;
+  float: left;
+}
+/* line 588, ../sass/musiGuru_main.scss */
+.practice img {
+  margin-top: 6px;
+}
+
+/* line 593, ../sass/musiGuru_main.scss */
+.record {
+  height: 50px;
+  width: 82px;
+  font-family: Arial;
+  font-size: 12px;
+  float: left;
+}
+/* line 599, ../sass/musiGuru_main.scss */
+.record img {
+  margin-top: 6px;
+}
+
+/* line 604, ../sass/musiGuru_main.scss */
+.review {
+  font-family: Arial;
+  font-size: 12px;
+  height: 50px;
+  width: 82px;
+  border-top-right-radius: 5px;
+  float: left;
+}
+/* line 611, ../sass/musiGuru_main.scss */
+.review img {
+  margin-top: 6px;
+}
+
+/* line 616, ../sass/musiGuru_main.scss */
+.selected {
+  background-color: rgba(255, 255, 255, 0.65);
+  border: 0px;
+}
+
+/* line 621, ../sass/musiGuru_main.scss */
+.unselected {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #999999;
+  border-right-color: #000000;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+/* line 631, ../sass/musiGuru_main.scss */
+.unselected-no-border {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #999999;
+  border: 0px;
+}
+
+/* line 637, ../sass/musiGuru_main.scss */
+.review.unselected {
+  border: 0px;
+}
+
+/* line 643, ../sass/musiGuru_main.scss */
+#store_icon img {
+  margin-top: 20px;
+}
+
+/* line 648, ../sass/musiGuru_main.scss */
+.videoDescContainer {
+  background-color: white;
+  margin: 10px 20px 10px 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: 205px;
+}
+
+/* line 655, ../sass/musiGuru_main.scss */
+.Lesson-Module {
+  top: 0px;
+  left: 0px;
+}
+/* line 658, ../sass/musiGuru_main.scss */
+.Lesson-Module #banner {
+  position: absolute;
+  width: 284px;
+}
+/* line 662, ../sass/musiGuru_main.scss */
+.Lesson-Module .shadow {
+  position: relative;
+}
+
+/* line 666, ../sass/musiGuru_main.scss */
+.rightArrow {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 108px;
+}
+
+/* line 673, ../sass/musiGuru_main.scss */
+.selected-lesson-img {
+  height: 77px;
+  float: right;
+}
+
+/*@font-face {
+   font-family: 'journal';
+   src: url('../fonts/JOURNAL.TTF');
+}*/
+@font-face {
+  font-family: 'journal';
+  src: url("../fonts/journal-webfont.eot");
+  src: url("../fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/journal-webfont.woff") format("woff"), url("../fonts/journal-webfont.ttf") format("truetype"), url("../fonts/journal-webfont.svg#journalregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url("../fonts/League_Gothic-webfont.eot");
+  src: local("☺"), url("../fonts/League_Gothic-webfont.woff") format("woff"), url("../fonts/League_Gothic-webfont") format("truetype"), url("../fonts/League_Gothic-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Airbus Special';
+  src: url("../fonts/aispec.ttf");
+}
+
+/* line 709, ../sass/musiGuru_main.scss */
+.likeTitle {
+  margin-top: 30px;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/* line 717, ../sass/musiGuru_main.scss */
+.likeDesc {
+  width: 400px;
+  margin-top: 20px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+/* line 726, ../sass/musiGuru_main.scss */
+#faq-left {
+  margin-left: 45px;
+  margin-top: 10px;
+  float: left;
+  width: 449px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  height: 1323px;
+  overflow: hidden;
+  border-right: 2px ridge;
+  padding-right: 10px;
+  margin-right: 15px;
+}
+
+/* line 741, ../sass/musiGuru_main.scss */
+#faq-left a {
+  font-size: 16px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+}
+
+/* line 746, ../sass/musiGuru_main.scss */
+.likeDesc a {
+  color: #FFB4A2;
+  font-size: 15px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+}
+
+/* line 752, ../sass/musiGuru_main.scss */
+.likeDesc a:hover {
+  color: #fff;
+}
+
+/* line 755, ../sass/musiGuru_main.scss */
+a:hover {
+  color: #000;
+}
+
+/* line 759, ../sass/musiGuru_main.scss */
+.faqTitle {
+  margin-top: 15px;
+  font-family: 'journal';
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: #A12828;
+}
+
+/* line 769, ../sass/musiGuru_main.scss */
+.faq_area ol {
+  margin-left: 0px;
+  padding-left: 22px;
+}
+
+/* line 775, ../sass/musiGuru_main.scss */
+#testimony-right {
+  margin-left: 52%;
+  padding: 0px 25px 0px 0px;
+}
+
+/* line 780, ../sass/musiGuru_main.scss */
+.quotes {
+  font-family: 'Airbus Special';
+  font-weight: normal;
+  color: #b54646;
+  font-size: 44px;
+  line-height: 5px;
+  position: relative;
+  top: 15px;
+}
+
+/* line 790, ../sass/musiGuru_main.scss */
+.testmonyContainer {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+/* line 795, ../sass/musiGuru_main.scss */
+.testmony-desc {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Courgette';
+  font-weight: normal;
+  line-height: 28px;
+}
+
+/* line 800, ../sass/musiGuru_main.scss */
+.testmony-desc-name-white {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/* line 806, ../sass/musiGuru_main.scss */
+.testmony-desc-name-black {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+/* line 811, ../sass/musiGuru_main.scss */
+.libraryArrow {
+  margin-left: 30px;
+  padding-top: -40px;
+  position: relative;
+  top: -87px;
+  z-index: 3;
+  height: 261px;
+  float: left;
+}
+
+/* line 821, ../sass/musiGuru_main.scss */
+.footer-link {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+}
+
+/* line 828, ../sass/musiGuru_main.scss */
+#training_video {
+  border: 6px solid rgba(148, 146, 146, 0.36719);
+}
+
+/* line 831, ../sass/musiGuru_main.scss */
+#reviewIcon {
+  background: #ccc;
+  margin: 0px 20px 20px 20px;
+  height: 150px;
+}
+
+/* line 836, ../sass/musiGuru_main.scss */
+#playImg {
+  margin-top: 16%;
+}
+
+/* line 840, ../sass/musiGuru_main.scss */
+.textmgArtist {
+  padding-top: 20px;
+}
+
+/* line 845, ../sass/musiGuru_main.scss */
+#copyright {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666666;
+}
+
+/* line 851, ../sass/musiGuru_main.scss */
+.whiteQuotes {
+  font-family: 'Airbus Special';
+  font-weight: normal;
+  color: #FFFFFF;
+  font-size: 44px;
+  line-height: 25px;
+  position: relative;
+  top: 15px;
+}
+
+/* line 861, ../sass/musiGuru_main.scss */
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* line 867, ../sass/musiGuru_main.scss */
+.overlay-white-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.65);
+  position: relative;
+}
+
+/* line 873, ../sass/musiGuru_main.scss */
+.loading_circle {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+/* line 878, ../sass/musiGuru_main.scss */
+#chaptersNav {
+  height: 100%;
+}
+
+/* line 882, ../sass/musiGuru_main.scss */
+#module_content {
+  height: 100%;
+}
+
+/* line 885, ../sass/musiGuru_main.scss */
+.jspTrack, .jspDrag {
+  border-radius: 2px;
+}
+
+/* line 891, ../sass/musiGuru_main.scss */
+.module-selected img.rightArrow {
+  display: block;
+}
+
+/* line 897, ../sass/musiGuru_main.scss */
+.module-unselected img.rightArrow {
+  display: none;
+}
+
+/* line 901, ../sass/musiGuru_main.scss */
+#sub-content-three > hr {
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  clear: both;
+  width: 958px;
+  color: #ab3e3e;
+  background-color: #ab3e3e;
+  height: 0px;
+  border: 1px #ab3e3e solid;
+  margin-bottom: 20px;
+}
+
+/* line 916, ../sass/musiGuru_main.scss */
+.faq_q {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* line 920, ../sass/musiGuru_main.scss */
+.faq_a {
+  list-style-image: none;
+  list-style-type: none;
+  text-align: justify;
+  font-weight: normal;
+}
+
+/* line 928, ../sass/musiGuru_main.scss */
+.guru-container {
+  clear: both;
+  margin-top: 30px;
+}
+
+/* line 932, ../sass/musiGuru_main.scss */
+.guru1, .guru2 {
+  width: 278px;
+  float: left;
+  margin-left: 20px;
+  border-right: 2px white dashed;
+  padding-right: 20px;
+  height: 290px;
+}
+
+/* line 940, ../sass/musiGuru_main.scss */
+.guru3 {
+  width: 280px;
+  float: left;
+  margin: 0px 20px;
+  height: 290px;
+}
+
+/* line 948, ../sass/musiGuru_main.scss */
+.artistImage-div-quotes {
+  float: left;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  left: 15px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 5px solid #e8e8e8;
+}
+/* line 949, ../sass/musiGuru_main.scss */
+.artistImage-div-quotes img {
+  width: 58px;
+  height: 58px;
+}
+
+/* line 963, ../sass/musiGuru_main.scss */
+.artist-about-quotes {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Courgette';
+  font-weight: normal;
+  margin-left: 25px;
+  float: left;
+  color: #FFFFFF;
+  text-align: left;
+  line-height: 29px;
+}
+
+/* line 972, ../sass/musiGuru_main.scss */
+.guruTitleImage {
+  clear: both;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 979, ../sass/musiGuru_main.scss */
+.guru-name-heading {
+  font-weight: bold;
+}
+
+/* line 984, ../sass/musiGuru_main.scss */
+.chapterTemplateClass {
+  cursor: pointer;
+  clear: both;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #d9e2eb;
+  top: 0px !important;
+}
+
+/* line 993, ../sass/musiGuru_main.scss */
+.eventsTitleContent {
+  height: 45px;
+  padding-left: 267px;
+  position: relative;
+  top: 346px;
+}
+
+/* line 1000, ../sass/musiGuru_main.scss */
+.eventsTitle {
+  text-align: center;
+  width: 280px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: bold;
+}
+
+/* line 1010, ../sass/musiGuru_main.scss */
+.eventsContent {
+  text-align: center;
+  width: 280px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+}
+
+/* line 1021, ../sass/musiGuru_main.scss */
+.fb-like-custom-placement {
+  left: 116px;
+  top: 195px;
+}
+
+/* line 1027, ../sass/musiGuru_main.scss */
+#fb_like_box_seprator hr {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* line 1033, ../sass/musiGuru_main.scss */
+.musiguru-team-section .guru-container {
+  margin-top: 0px;
+}
+
+/* line 1038, ../sass/musiGuru_main.scss */
+.musiguru-team-section .likeDesc {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* line 1043, ../sass/musiGuru_main.scss */
+.musiguru-team-section .likeTitle {
+  margin-top: 15px;
+}
+
+/* line 1046, ../sass/musiGuru_main.scss */
+.musiguru-team-section .guru1, .musiguru-team-section .guru2 {
+  width: 278px;
+  float: left;
+  margin-left: 20px;
+  border-right: 2px white dashed;
+  padding-right: 20px;
+  height: 145px;
+}
+
+/* line 1054, ../sass/musiGuru_main.scss */
+.musiguru-team-section .guru3 {
+  width: 280px;
+  float: left;
+  margin: 0px 20px;
+  height: 145px;
+}
+
+/* line 1060, ../sass/musiGuru_main.scss */
+.musiguru-team-section a {
+  font-size: 14px;
+  color: #FFB4A2;
+  font-weight: normal;
+}
+
+/* line 1065, ../sass/musiGuru_main.scss */
+.musiguru-team-section a:hover {
+  color: #FFF;
+}
+
+/* line 1069, ../sass/musiGuru_main.scss */
+.musiguru-team-section .guruTitleImage {
+  clear: both;
+  margin-left: 20px;
+  margin-bottom: -30px;
+}
+
+/* line 1076, ../sass/musiGuru_main.scss */
+.fb-like-box {
+  margin-top: 35px;
+}
+
+/* line 1080, ../sass/musiGuru_main.scss */
+#sub-content-comingup {
+  margin-left: 8px;
+  background: rgba(255, 255, 255, 0.65);
+  float: left;
+  width: 945px;
+  height: 115px;
+  top: -300px;
+  margin-bottom: -30px;
+  color: #a12828;
+  font-family: "journal";
+  position: relative;
+}
+
+/* line 1094, ../sass/musiGuru_main.scss */
+#sub-content-comingup .coming-up-text {
+  font-size: 46px;
+  text-align: center;
+}
+
+/* line 1099, ../sass/musiGuru_main.scss */
+#sub-content-comingup .coming-up-subtext {
+  font-size: 34px;
+  text-align: center;
+}
+
+/* line 1104, ../sass/musiGuru_main.scss */
+.libraryArrow img {
+  height: 210px;
+}
+
+/* line 1108, ../sass/musiGuru_main.scss */
+.musiguru-team-section#sub-content-three {
+  margin-top: -125px;
+}
+
+/* line 1112, ../sass/musiGuru_main.scss */
+.signup_sidebar {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid none solid solid;
+  border-top-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 4px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.24706) 1px 1px 1px inset, rgba(0, 0, 0, 0.49804) 0px 1px 2px;
+  box-shadow: rgba(255, 255, 255, 0.24706) 1px 1px 1px inset, rgba(0, 0, 0, 0.49804) 0px 1px 2px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1em;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  right: 0px;
+  top: 143px;
+  z-index: 9999;
+  background-color: #a12828;
+  margin-top: -60px;
+  margin-right: 0px;
+  display: block;
+  bottom: auto;
+  background-position: 50% 0px;
+  background-repeat: no-repeat no-repeat;
+  width: 28px;
+  height: 130px;
+}
+
+/* line 1149, ../sass/musiGuru_main.scss */
+.signup_side_content {
+  float: left;
+  position: relative;
+  -moz-transform: rotate(90deg);
+  /* FF3.5+ */
+  -o-transform: rotate(90deg);
+  /* Opera 10.5 */
+  -webkit-transform: rotate(90deg);
+  /* Saf3.1+, Chrome */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  /* IE6,IE7 */
+  -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  /* IE8 */
+  margin-top: 20px;
+  margin-top: 45px;
+  color: #fff;
+  margin-left: -33px;
+}
+
+/* line 1163, ../sass/musiGuru_main.scss */
+.signup-widget {
+  position: fixed !important;
+  top: 26px;
+  right: -6px;
+  width: 38px;
+  height: 137px;
+  cursor: pointer;
+}

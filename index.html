@@ -1,0 +1,140 @@
+<!doctype html>
+<html ng-app="app" ng-controller="Appctrl">
+  <head>
+  
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+	<!-- <script type="text/javascript" src="js/libs/sugar-1.3.9.min.js"></script> -->
+	<script type="text/javascript" src="js/libs/angular.min.js"></script>
+	<script type="text/javascript" src="js/libs/localStorageModule.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/libs/jScrollPane.js"></script>
+  	<script src="js/libs/foundation.min.js"></script>
+  	<script src="js/libs/foundation/foundation.dropdown.js"></script>
+
+	<!--[if !IE]>-->
+	  <script type="text/javascript" src="js/libs/parse-1.2.1.min.js"></script>
+	<!--<![endif]-->
+
+	
+	
+	<script type="text/javascript" src="js/libs/jquery.diyslider.min.js"></script>
+	<script type="text/javascript" src="js/libs/async.js"></script>
+	<script type="text/javascript" src="js/musiguru.js"></script>	
+	<script type="text/javascript" src="js/musiguru-dataservice.js"></script>
+	<script type="text/javascript" src="js/musiguru-controllers.js"></script>
+	<script type="text/javascript" src="js/musiguru-model.js"></script>
+	<script type="text/javascript" src="js/musiguru-routes.js"></script>
+	<script type="text/javascript" src="js/musiguru-directive.js"></script>
+		<script type="text/javascript" src="js/musiguru-filter.js"></script>
+
+	<!--[if lte IE 8]>
+		<link href="stylesheets/ie_less_9.css" rel="stylesheet">
+	<![endif]-->
+
+
+	
+	<link href="stylesheets/musiguru.css" rel="stylesheet">
+	<!--<link href="stylesheets/app.css" rel="stylesheet">-->
+	<link href="stylesheets/jScrollPane.css" rel="stylesheet">
+	<link href="stylesheets/foundation.css" rel="stylesheet">
+	<link href="stylesheets/pagination.css" rel="stylesheet">
+	
+	
+	<!-- Second, add the Timer and Easing plugins -->
+	<script type="text/javascript" src="js/libs/jquery.timers-1.2.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.easing.1.3.js"></script>
+	
+	<!-- Third, add the GalleryView Javascript and CSS files -->
+	<script type="text/javascript" src="js/libs/jquery.galleryview-3.0-dev.js"></script>
+	<link type="text/css" rel="stylesheet" href="stylesheets/jquery.galleryview-3.0-dev.css" />
+	<!--<link type="text/css" rel="stylesheet" href="stylesheets/bootstrap.css" />-->
+	<!-- 
+		include flowplayer JavaScript file that does  
+		Flash embedding and provides the Flowplayer API.
+	-->
+	<!-- ghana change-->
+	<script type="text/javascript" src="js/libs/flowplayer-3.2.12.min.js"      ></script>
+
+	<title>Musiguru</title>
+	<!-- Google Analytics -->
+	<script>
+		//TODO: create a config file based on env params
+		var baseUrl = location.hostname;
+		var _gaId = '';
+		if(baseUrl.indexOf("musiguru-stg.herokuapp.com") > -1){
+			_gaId = 'UA-32473774-2';
+		}else if (baseUrl.indexOf("musiguru.in") > -1){
+			_gaId = 'UA-32473774-1';
+		}else {//if (baseUrl.indexOf("") > -1){
+			_gaId = 'UA-32473774-2';
+		}
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', _gaId]);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		//Slight delay for tracking outbound links properly.
+		function trackUserInteraction(link, category, action, label, value) {
+			console.log("trackUserInteraction" + JSON.stringify(['_trackEvent', category, action, label, value]));
+			_gaq.push(['_trackEvent', category, action, label, value]);		    
+		}
+	</script>
+	<!-- End Google Analytics -->
+	<!-- User Voice -->
+	<script type="text/javascript">
+	  var uvOptions = {};
+	  (function() {
+		var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+		uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/YhrGAU8qUdfIqirAz4vdQ.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+	  })();
+	</script>
+
+
+  <script>
+    $(document).foundation();
+  </script>	
+
+
+  </head>
+  <body  id="top">
+  	
+	<div id="ie_lt_e_8" ng-show="isIE">
+		<div style="position:relative;background:url('images/top_section_img.png') no-repeat;width:958px;height:330px">
+	
+			<div id="headerButtonContainer">
+		
+				
+				<div style="width:370px;margin-left:140px;;cursor:pointer;position: relative;top: 50px; color: #fff;font-size: 15px; " >
+				</div>
+
+
+				<div class="headerAppStoreIcon">
+					<a href="http://itunes.apple.com/us/app/musiguru/id530432717?mt=8" target="_blank"><img src="images/icon_appstore.png" width="129px" height="39px"></a>
+				</div>
+			</div>
+
+		</div >		
+
+		<div style="clear:both"></div>
+		<div class="ie_lt_e_8_mes">
+			
+			<br>This site works best with <br>
+			&nbsp;<img src="images/chrome.png" style="width:30px;"/> Chrome <br> 
+			<img src="images/firefox.png" style="width:30px;"/> Firefox <BR> 
+			&nbsp; 
+			If you are using Internet Explorer, please open this site in Chrome or Firefox.
+		</div>
+	</div>
+  	
+	<div ng-include src="'html/header.html'"></div>
+	<div ng-view></div>
+	<div ng-include src="'html/footer.html'"></div>
+ </body>
+</html>

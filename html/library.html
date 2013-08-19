@@ -1,0 +1,68 @@
+<div class="container">
+	<div class="grayContainer" style="margin-bottom:0">
+		<div class="news" ng-click="loadLessonBoard('0')">
+			<img src="images/slide_assorted-krtis-pack.jpg">
+		</div>
+		<div class="news" ng-click="loadLessonBoard('1')">
+			<img src="images/slide_carnatic-basic-level2.jpg">
+		</div>
+		<div class="news" ng-click="loadLessonBoard('2')">
+			<img src="images/slide_carnatic-basic-level3.jpg">
+		</div>
+	</div>
+	<div id="exploreLibrary" style="min-height:420px;">
+		
+		<div ><img src="images/ajax-loader.gif" class="explore_loading_circle" alt="loading" /></div>		
+		<div class="artists" style="width:50%;text-align:center">
+			<div style="display:none">
+				<img src="images/strip_bundle-offer.png" width="100%">	
+				<div>
+					<span class="offerTitleOne"  ng-click="displayLoginbox()">All Carnatic Modules</span>
+					<br><span class="offerTitleOne">for</span>
+					<span class="offerTitleThree" style="display:none">$150</span>
+					<span class="offerTitleFour">$150</span>
+					<span class="offerTitleFive">/&nbsp; 6&nbsp; months</span><br>
+					<span class="offerTitleSix">(This includes all modules listed alongside)</span><br>
+					<span class="offerTitleSeven">Limited period offer</span><br>
+					<input type="button" class="redButton" value="Subscribe" ng-click="displayLoginbox()" style="margin:10px 0 0 0;float:none">
+				</div>
+			</div>	
+			<div style="text-align:center">
+				<div>
+					<img src="images/mglogo_gray_library.png" style="border: 1px solid #d9e2eb" ng-hide="MgModal.isLogin">
+				</div>
+				<div>
+					<img src="images/mglogo_library.png" style="border: 1px solid #d9e2eb" ng-show="MgModal.isLogin">
+				</div>
+				<!--<div class="signUpBtn" style="left:39%" ng-hide="MgModal.isLogin" ng-click="displaySignupbox()">
+					Sign Up
+				</div>
+				<div style="margin-top:20px" ng-hide="MgModal.isLogin">
+					Sign up now to get a two week free trial.
+				</div>-->
+				<div style="background:url('images/signup_badge_small.png') no-repeat;height:86px;width:278px;cursor:pointer;margin:0 auto;margin-top:20px" ng-click="displaySignupbox();"  ng-hide="MgModal.isLogin">
+				
+			</div>
+			</div>
+		</div>
+		<div class="category">
+			<div class="title">
+				Category
+			</div>
+		
+			
+			<div ng-repeat="category in categories" ng-click="onCateogyClick(category)" class="categoryContainer">
+				<div class="left">
+					<a href="javascript:void(0)" class="categoryTitle">{{category.get("name")}}</a>
+					<p class="desc">{{category.get("desc")}}</p>
+				</div>
+				<div class="right">
+					<img src="images/arrow_gray.png">
+				</div>
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+</div>

@@ -1,0 +1,161 @@
+sass/
+	musiguru.scss	
+		#sub-content-two
+			#chapters-Content
+				comment radius
+	
+
+		.loading_circle_lessonboard
+		.loading_circle
+
+html/
+	lessonboard.html
+		near to lessonboard class overlay add	loading_circle_lessonboard	.
+
+
+
+
+changes on  12-07-2013
+
+
+sass/
+	musiguru.scss	
+		@mixin loading_circle_base($dest)
+		.explore_loading_circle
+		.postlgn_library_loading_circle
+		.modules_loading_circle
+
+
+html/
+	library.html
+		<div id="exploreLibrary" style="min-height:420px;">		 set minwidth
+
+			<div ><img src="images/ajax-loader.gif" class="explore_loading_circle" alt="loading" /></div>
+
+
+
+	modules.html
+
+			<div style="min-height:300px;">  set  next div of <div class="breadCombContainer">
+
+
+			<div ><img src="images/ajax-loader.gif" class="modules_loading_circle" alt="loading" /></div>   add in moduleOuterContainer class
+
+
+post_login.html
+		
+			<div style="width: 898px;margin: 0 auto;min-height:550px;"> set parent of <div class="learningtitle">
+
+
+			<div ><img src="images/ajax-loader.gif" class="postlgn_library_loading_circle" alt="loading" /></div> add next of <div class="learningtitle">
+
+js/
+	musiguru.js
+		showPagePreLoader( add this function b4 function showLogin()
+	musiguru-controllers.js
+		$scope.ajaxloader  add in Libraryctrl,PostLoginCntl,Modulesctrl  at the bottom
+
+
+
+changes on  15-07-2013
+
+sass/
+	musiguru.scss	
+		.page-loader
+		.img-placer
+
+stylesheets/
+	jScrollPane.css
+
+
+
+lessonboard.html
+		<div class="page-loader"> top the page
+
+		
+js/
+	musiguru.js
+		ajaxPageLoader ( add this function b4 function showLogin()
+	musiguru-controllers.js
+		$scope.ajaxPageloader add in LessonBoardctrl
+
+
+==============================================================
+01-08-2013
+	js/
+		musiguru-controllers.js
+			not email verifciation 	alert to be added.
+	html/
+		post_login (email verficationt text to be changed)	
+		lessonboard.html (email verifiction changed to be added)
+		lessonboard.html
+		registration/	
+			associateRegister.html (I am radio button changes)
+	sass/
+		musigurur.sass (email verifciation text to be added)
+
+==============================================================
+02-08-2013
+
+
+==============================================================
+05-08-2013
+	js/
+		musiguru-controllers.js	(partner sign up page sign up changed in  'Associatectrl')
+==================================================================
+12-08-2013
+	js/
+	html/
+		modules.html
+		home.html
+================================================================
+html/
+	header.html
+	home.html
+	lessonboard.html
+	modules.html
+	post_login.html
+js/
+	musiguru-conroller.js
+	musiguru-dataservice.js
+	musiguru.js
+Sass/
+	musiguru.sccs
+	
+stylesheet/
+	app.css
+	musiguru.css
+
+
+
+http://stackoverflow.com/questions/11972026/delaying-angularjs-route-change-until-model-loaded-to-prevent-flicker
+
+http://stackoverflow.com/questions/14718826/angularjs-disable-partial-caching-on-dev-machine
+
+
+http://stackoverflow.com/questions/12346690/is-there-a-way-to-make-angularjs-load-partials-in-the-beginning-and-not-at-when/12346901#12346901
+
+
+https://github.com/opitzconsulting/jquery-mobile-angular-adapter/issues/59
+
+http://bennadel.github.io/AngularJS-Routing/#/pets/dogs/2
+
+http://www.refreshyourcache.com/en/home/
+
+
+http://stephanebegaudeau.tumblr.com/post/48776908163/everything-you-need-to-understand-to-start-with
+
+
+callMGSignup
+checkMGLogin
+callAssociateSignup
+MgModal.user.username = username;
+
+
+currentUser = Parse.User.current();
+    $scope.MgModal.user.username = currentUser.get("username");
+    $scope.MgModal.user.firstName = currentUser.get("firstname");
+
+$scope.MgModal.user.username = results.get("username");
+$scope.MgModal.user.firstname = results.get("firstname");
+$scope.MgModal=MgModal; 

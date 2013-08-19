@@ -1,0 +1,82 @@
+<div class="transparentcontainer">
+<div class="sec_content">
+
+<div class="symphonyContainer" >
+<div ng-hide="MgModal.isLogin" class="symphonyLeftContainer">
+	<div>Already a Musiguru user?</div>
+	<div class="loginLink" ng-click="displayLoginbox()"><u>Login</u></div>
+</div>
+<div class="symphonyRightContainer">
+	<form class="login"  ng-submit="callAssociateSignup()"  id="myForm">
+		<fieldset class="boxBody">
+			<div class="registrationTitle">Musiguru Partner</div>
+		  <label>Email:</label>
+		  <input type="email" id="enroll-username"  placeholder="johnsmith@gmail.com" required>
+		  <div class="formCntrlDivContanier">
+		  	  <div class="cntrlLeft">
+			  <label>First Name :</label>
+			  <input type="text" id="enroll-firstname" placeholder="John" required>
+			 </div> 
+			 <div class="cntrlRight">
+			  <label>Last Name :</label>
+			  <input type="text" id="enroll-lastname" placeholder="Smith" required>
+			 </div>
+		  </div>
+		  <div style="clear:both;"/>
+		  <div id="password-box" class="formCntrlDivContanier">
+		  	  <div class="cntrlLeft">
+		  		<label>Password :</label>
+		  		<input type="password" id="enroll-password" placeholder="Password" required="">
+		  	  </div>
+		  	  <div class="cntrlRight">
+				  <label>Confirm Password :</label>
+				  <input type="password" id="enroll-confpassword"  placeholder="Password" required="">
+			  </div>
+		   </div>
+		   <div style="clear:both"/>
+		  <label>Age :</label>
+		  <input type="number" id="enroll-age"  placeholder="Age"  min="13" max="100" required>
+		   <div class="formCntrlDivContanier">
+		   	 <label>Address :</label>
+			  <textarea rows="4" cols="50"  id="enroll-address" text=""></textarea>
+		   </div>
+		  <div class="formCntrlDivContanier">
+		   	 <label>City/State :</label>
+			  <input type="text" id="enroll-city" placeholder="eg. San Jose, CA" required>
+		   </div>
+		   <div class="formCntrlDivContanier">
+		   	 <label>Phone :</label>
+			  <input type="tel" id="enroll-phone" placeholder="+1 555 123 1234">
+		   </div>
+		 
+		<div class="formCntrlDivContanier" id="participationDiv">
+		  <label>I : </label>
+		  <input type="radio" name="symphony_participate" id="music_school1" value="teacher" checked="true">&nbsp;am a teacher &nbsp;&nbsp;&nbsp;</input>
+
+		  <input type="radio" name="symphony_participate" id="music_school" value="organiser" >&nbsp;am an Organiser</input> 
+
+		  <input type="radio" name="symphony_participate" id="music_school" value="rep_school" >&nbsp;represent a school</input> 		  
+		  
+		</div>
+		  <div class="formCntrlDivContanier">
+			 <label>School Name :</label>	
+			<input type="text" id="schoolname" placeholder="School Name">
+		 </div>
+		  <label style="margin-top:10px;">Brief description:</label>
+		  <textarea rows="4" cols="50"  id="enroll-desc" ></textarea><br>
+		  <div class="formCntrlDivContanier">
+		  	  <div class="cntrlLeft">
+		 		 <input type="checkbox" name="conditions"  required>
+	 		</div>
+	 		<div class="cntrlRight termsDiv">
+		  		<a href="#/partner-terms" class="termsLink" target="_blank">I have read and accept the terms and conditions for the Musiguru program.</a>
+		  	</div>
+		</div>
+		   <input type="submit" class="btnLogin" value="Register" >
+		</fieldset>
+		
+	</form>
+</div>
+</div>
+</div>
+</div>

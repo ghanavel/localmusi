@@ -1,0 +1,53 @@
+<div class="transparentcontainer">
+    <div class="wrapper">
+		
+		<div class="breadCombContainer">
+			<span class="breadCombNonSelector"  ng-click="loadLibrary()">Library&nbsp;</span>
+			<img src="images/breadcrumb_arrow.png">
+			<span class="breadCombActive">{{name}}</span>
+		</div>
+		<div style="min-height:300px;">
+			<div style="padding:10px 10px 10px 30px">
+				<div class="learningtitle" style="font-family:Ruluko;font-size:44px;color:#a12828">
+					{{name}}
+				</div>
+				<div class="categoryDesc">
+					{{MgModal.category.get("desc")}}
+				</div>
+			</div>
+			<div class="moduleOuterContainer"  >
+
+				<div ><img src="images/ajax-loader.gif" class="modules_loading_circle" alt="loading" /></div>				
+			<div class="moduleCotainer"  ng-repeat="module in modules" ng-click="onModuleclick(module)">
+				<!--<a href="#/lessonboard/{{module['id']}}/{{module.get('SeriesNumber')}}">-->
+					<img ng-src="{{getImageUrl(module)}}" height="100px" width="100px" class="moduleImg"/>
+					<div class="moduleData" style="width:680px">
+						<div class="moduleTitle">{{module.get("Title")}}</div>
+						<div class="categoryDesc">{{module.get("Description")}}</div>
+						<div class="modulePriceData" style="padding-left:0">
+						<div class="moduleAuthor">by &nbsp;{{module.get("Author").get("Name")}}</div>
+						</div>
+					</div>
+					<div class="modulePriceData" style="display:none">
+						<span class="offerTitleThree" style="display:none">$150</span>
+						<span class="offerTitleFour" style="display:none">{{price}}</span>
+						<span class="offerTitleFive" style="display:none">/&nbsp; 6&nbsp; months</span>
+						<br><br>
+						<span class="moduleAuthor">by &nbsp;{{module.get("Author").get("Name")}}</span>
+					</div>
+					<div class="moduleArrow">
+						<img src="images/arrow_gray.png"/>
+					</div>
+				<!--</a>-->
+			</div>
+			
+		</div>
+		</div>
+		
+	</div>
+	<div style="clear:both"></div>
+	<div onclick="goToTop()" style="float:right;margin:10px;">
+		<a href="javascript:void(0)">&#8593; Back to top</a>
+	</div>
+	<div style="clear:both"></div>
+</div>

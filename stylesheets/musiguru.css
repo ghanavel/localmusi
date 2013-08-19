@@ -1,0 +1,3199 @@
+@charset "IBM437";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+@import url(https://fonts.googleapis.com/css?family=Ruluko);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+/* line 6, ../sass/musiguru.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 11, ../sass/musiguru.scss */
+body {
+  margin: 0px auto;
+  padding: 0px;
+  width: 100%;
+  background: url("../images/body_bg_repeat.png") repeat scroll 0 0 transparent;
+  height: auto;
+  overflow: auto;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+}
+
+/* line 21, ../sass/musiguru.scss */
+#header {
+  width: 100%;
+  height: 59px;
+  background-color: #b53131;
+  position: fixed;
+  top: 0px;
+  z-index: 99999;
+  border-bottom: 1px solid #8f2424;
+}
+
+/* line 30, ../sass/musiguru.scss */
+#headerContainer {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* line 36, ../sass/musiguru.scss */
+#headerContainer div {
+  float: left;
+  line-height: 60px;
+  color: #ffffff;
+  font-size: 17px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+/* line 44, ../sass/musiguru.scss */
+#headerContainer div a {
+  color: #ffffff;
+}
+
+/* line 48, ../sass/musiguru.scss */
+#headerContainer li a {
+  color: #000;
+  word-wrap: break-word;
+  padding: 0px !important;
+}
+
+/* line 55, ../sass/musiguru.scss */
+.headerMenu {
+  padding: 0 10px;
+}
+
+/* line 58, ../sass/musiguru.scss */
+.headerMenu:hover {
+  float: left;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #d23636;
+  font-size: 17px;
+  margin-right: 10px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+/* line 69, ../sass/musiguru.scss */
+.container {
+  width: 958px;
+  border: 1px solid #d9dfe3;
+  margin: 0 auto;
+  position: relative;
+  top: 59px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* line 77, ../sass/musiguru.scss */
+.inputForm {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+/* line 82, ../sass/musiguru.scss */
+.grayContainer {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f2f2f2;
+  /*margin-bottom: 1.25em;*/
+  border-left: none;
+  border-right: none;
+  padding: 0 1.25em;
+  background: #e9e9e9;
+}
+
+/* line 93, ../sass/musiguru.scss */
+.breadCombContainer {
+  border: 1px solid #f2f2f2;
+  background: #e9e9e9;
+  padding: 10px 10px 10px 30px;
+}
+
+/* line 98, ../sass/musiguru.scss */
+.grayImageContainer {
+  height: 230px;
+  width: 960px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  margin-bottom: 1.25em;
+  border-left: none;
+  border-right: none;
+  background: url("../images/library_banner_bg.jpg");
+}
+
+/* line 112, ../sass/musiguru.scss */
+.whiteContainer {
+  background: #ffffff;
+  padding: 10px 10px 10px 30px;
+}
+
+/* line 116, ../sass/musiguru.scss */
+.leftSlider {
+  background-image: url("../images/slider_prev_arrow.png");
+  width: 15px;
+  height: 44px;
+  cursor: pointer;
+  float: left;
+  clear: both;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+/* line 127, ../sass/musiguru.scss */
+.rightSlider {
+  background-image: url("../images/slider_next_arrow.png");
+  width: 15px;
+  height: 44px;
+  cursor: pointer;
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+/* line 136, ../sass/musiguru.scss */
+.followusSocial {
+  padding: 10px;
+  float: right;
+  clear: both;
+}
+
+/* line 141, ../sass/musiguru.scss */
+.news {
+  display: inline-block;
+  margin: 13px;
+  cursor: pointer;
+}
+
+/* line 148, ../sass/musiguru.scss */
+#exploreLibrary {
+  width: 100%;
+  background-color: white;
+  display: table;
+}
+
+/* line 156, ../sass/musiguru.scss */
+.category, .artists {
+  padding: 20px;
+}
+
+/* line 161, ../sass/musiguru.scss */
+.artists {
+  /*border-left: 2px solid #d9dfe3;*/
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 168, ../sass/musiguru.scss */
+.clear {
+  clear: both;
+}
+
+/* line 172, ../sass/musiguru.scss */
+#exploreLibrary .title {
+  text-align: center;
+  font-size: 34px;
+  background: url("../images/pttrn_bg.png");
+  color: #000000;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  height: 55px;
+  line-height: 55px;
+}
+
+/* line 183, ../sass/musiguru.scss */
+.artists {
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+}
+/* line 187, ../sass/musiguru.scss */
+.artists .offerTitleOne {
+  font-size: 28px;
+  color: #333333;
+  cursor: pointer;
+}
+/* line 194, ../sass/musiguru.scss */
+.artists .offerTitleThree {
+  text-decoration: line-through;
+  font-size: 18px;
+  color: #999999;
+}
+/* line 200, ../sass/musiguru.scss */
+.artists .offerTitleFour {
+  font-size: 28px;
+  color: #d02f2f;
+}
+/* line 205, ../sass/musiguru.scss */
+.artists .offerTitleFive {
+  font-size: 28px;
+  color: #d02f2f;
+}
+/* line 210, ../sass/musiguru.scss */
+.artists .offerTitleSix {
+  font-size: 20px;
+  color: #f47721;
+}
+/* line 215, ../sass/musiguru.scss */
+.artists .offerTitleSeven {
+  font-size: 20px;
+  color: #d02f2f;
+}
+
+/* line 221, ../sass/musiguru.scss */
+.category .name {
+  font-family: 'Arial';
+  font-weight: normal;
+  font-size: 17px;
+  height: 60px;
+}
+
+/* line 228, ../sass/musiguru.scss */
+.artist .name {
+  ont-family: 'Arial';
+  font-weight: normal;
+  font-size: 17px;
+  height: 30px;
+}
+
+@font-face {
+  font-family: 'journal';
+  src: url("../fonts/journal-webfont.eot");
+  src: url("../fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/journal-webfont.woff") format("woff"), url("../fonts/journal-webfont.ttf") format("truetype"), url("../fonts/journal-webfont.svg#journalregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 245, ../sass/musiguru.scss */
+.grayBackground {
+  width: 700px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: grey;
+  line-height: 200px;
+  margin-top: 50px;
+  border-radius: 2px;
+}
+
+/* line 255, ../sass/musiguru.scss */
+.headerHomeLogo {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 264, ../sass/musiguru.scss */
+.rightHeader {
+  float: right !important;
+}
+
+/* line 292, ../sass/musiguru.scss */
+.headerSignout {
+  /*@include yelloGradient();*/
+  float: right;
+}
+
+/* line 298, ../sass/musiguru.scss */
+#headerButtonContainer {
+  bottom: -22px;
+  position: absolute;
+}
+
+/* line 302, ../sass/musiguru.scss */
+.signupNow {
+  /*background-image:url('../images/signupnow_big_button_bg.png');*/
+  width: 285px;
+  height: 62px;
+  text-align: center;
+  font-size: 40px;
+  float: left;
+  margin-left: 172px;
+  cursor: pointer;
+  line-height: 62px;
+  background: -moz-linear-gradient(top, #fed805, #e89900);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fed805), to(#e89900));
+  border: 2px solid #891c1b;
+  border-radius: 4px;
+}
+
+/* line 318, ../sass/musiguru.scss */
+.headerRightBtn {
+  /*background-image:url('../images/signupnow_small_button_bg.png');
+  width:78px;
+  height:35px;
+  text-align:center;
+  font-weight:bold;
+  color:#333333 !important;
+  line-height:40px !important;
+  position: relative;
+  top: 12px;
+  margin-right:0px !important;
+  cursor:pointer;*/
+  border-radius: 3px;
+  /*background-color:#f35600;*/
+  border: 1px solid #ef5e1e;
+  font-size: 17px bold #ffffff;
+  width: 78px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px !important;
+  position: relative;
+  top: 11px;
+  margin-right: 0px !important;
+  cursor: pointer;
+  background: -moz-linear-gradient(top, #e85309, #e83a0c);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e85309), to(#e83a0c));
+}
+
+/* line 347, ../sass/musiguru.scss */
+.signUpBtn {
+  background: -moz-linear-gradient(top, #fed805, #e89900);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fed805), to(#e89900));
+  border: 2px solid #891c1b;
+  border-radius: 3px;
+  font-size: 17px bold #ffffff;
+  width: 78px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px !important;
+  position: relative;
+  top: 11px;
+  margin-right: 0px !important;
+  cursor: pointer;
+}
+
+/* line 365, ../sass/musiguru.scss */
+.headerAppStoreIcon {
+  top: -80px;
+  left: 334px;
+  position: relative;
+  float: right;
+  width: 130px;
+}
+
+/* line 375, ../sass/musiguru.scss */
+.headerSignout {
+  /*background: #f2b33d;
+  background: -moz-linear-gradient(top, #f6b846, #eaac37);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6b846), to(#eaac37));
+  height: 35px;
+  border-radius: 2px;
+  border: #e4a735;*/
+  border-radius: 3px;
+  border: 1px solid #ef5e1e;
+  color: #ffffff !important;
+  font-size: 17px;
+  text-align: center;
+  line-height: 35px !important;
+  position: relative;
+  top: 10px;
+  margin-right: 0px !important;
+  cursor: pointer;
+  /*background:#ffffff;*/
+  width: 85px;
+  /* background border gradient */
+  background: -moz-linear-gradient(top, #e85309, #e83a0c);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e85309), to(#e83a0c));
+}
+
+/* line 403, ../sass/musiguru.scss */
+.learningtitle {
+  font-size: 64px;
+  font-family: 'journal';
+  font-weight: normal;
+  color: #a12828;
+  /*margin-top:10px;*/
+}
+
+/* line 413, ../sass/musiguru.scss */
+.blacktitle {
+  font-size: 50px;
+  color: #404040;
+  left: 11px;
+  font-family: 'journal';
+  font-weight: normal;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+/* line 423, ../sass/musiguru.scss */
+.grayContainer .blacktitle {
+  padding-left: 0;
+}
+
+/* line 427, ../sass/musiguru.scss */
+.transparentcontainer {
+  width: 958px;
+  border: 1px solid #d9dfe3;
+  background-color: rgba(255, 255, 255, 0.4);
+  min-height: 100px;
+  margin: 0px auto;
+  position: relative;
+  top: 59px;
+}
+
+/* line 438, ../sass/musiguru.scss */
+.whiteBackgroundContainer {
+  width: 958px;
+  border: 1px solid #d9dfe3;
+  background-color: white;
+  min-height: 100px;
+  margin: 0px auto;
+  position: relative;
+  top: 59px;
+}
+
+/* line 449, ../sass/musiguru.scss */
+.learningdesc {
+  font-size: 16px;
+  color: #666666;
+  margin-top: 20px;
+}
+
+/* line 457, ../sass/musiguru.scss */
+.lessonboardTitle, .libraryTitle {
+  cursor: pointer;
+}
+
+/* line 461, ../sass/musiguru.scss */
+.category ul li, .artists ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 468, ../sass/musiguru.scss */
+.category ul li a, .artists ul li a {
+  text-decoration: none;
+}
+
+/* line 500, ../sass/musiguru.scss */
+#sub-content-two {
+  margin-bottom: 30px;
+  width: 800px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+/* line 502, ../sass/musiguru.scss */
+#sub-content-two #Lesson-Content {
+  width: 500px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 7px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: auto;
+  float: left;
+  margin-right: 25px;
+}
+/* line 513, ../sass/musiguru.scss */
+#sub-content-two #chapters-Content {
+  width: 296px;
+  background: rgba(255, 255, 255, 0.65);
+  /*border-radius:10px;*/
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: auto;
+  float: left;
+  margin: 25px 25px 0 25px;
+}
+
+/* line 530, ../sass/musiguru.scss */
+#training_video {
+  border: 6px solid rgba(148, 146, 146, 0.36719);
+}
+
+/* line 533, ../sass/musiguru.scss */
+#chapterInfo {
+  width: 425px;
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* line 547, ../sass/musiguru.scss */
+#artists-right > div {
+  min-height: 80px;
+  width: auto;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+/* line 554, ../sass/musiguru.scss */
+.artistImage-div {
+  float: left;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  margin-right: 10px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 5px solid #e8e8e8;
+}
+
+/* line 565, ../sass/musiguru.scss */
+.artistImage-div img {
+  width: 58px;
+}
+
+/* line 570, ../sass/musiguru.scss */
+.artist-about {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+/* line 577, ../sass/musiguru.scss */
+.artistImage-div-small {
+  float: left;
+  position: relative;
+  width: 34px;
+  height: 34px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 3px solid #ffffff;
+}
+
+/* line 588, ../sass/musiguru.scss */
+.artistImage-div-small img {
+  width: 34px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 594, ../sass/musiguru.scss */
+.artist-about-small {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+/* line 601, ../sass/musiguru.scss */
+#training_title {
+  display: none;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 609, ../sass/musiguru.scss */
+#no_video {
+  padding-top: 200px;
+}
+
+/* line 612, ../sass/musiguru.scss */
+#videoDesc {
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding-top: 5px;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+}
+
+/* line 621, ../sass/musiguru.scss */
+#video {
+  margin-top: 30px;
+}
+
+/* line 624, ../sass/musiguru.scss */
+iframe {
+  border: 0px gray none;
+}
+
+/* line 629, ../sass/musiguru.scss */
+.tabrow {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  font-size: 8px;
+  font-family: arial;
+  position: relative;
+  margin-top: -10px;
+  margin-left: -2px;
+}
+
+/* line 645, ../sass/musiguru.scss */
+.tabrow li {
+  /*@include background(linear-gradient(top, #ECECEC 50%, #D1D1D1 100%));*/
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 white;
+  text-shadow: 0 1px #FFF;
+  margin: 0px;
+  padding: 0 15px;
+}
+
+/* line 659, ../sass/musiguru.scss */
+.tabrow a {
+  color: #555;
+  text-decoration: none;
+}
+
+/* line 664, ../sass/musiguru.scss */
+.tabrow li.selected {
+  background: #FFF;
+  color: #333;
+  z-index: 2;
+  border-top-color: #FFF;
+}
+
+/* line 671, ../sass/musiguru.scss */
+.tabrow:before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-top: 1px solid #AAA;
+  z-index: 1;
+}
+
+/* line 682, ../sass/musiguru.scss */
+.tabrow li:before,
+.tabrow li:after {
+  border: 1px solid #AAA;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+  height: 6px;
+  content: " ";
+}
+
+/* line 691, ../sass/musiguru.scss */
+.tabrow li:before {
+  left: -7px;
+  border-top-right-radius: 1px;
+  border-width: 1px 1px 0px 0px;
+  box-shadow: 1px 0px 0 #ECECEC;
+}
+
+/* line 698, ../sass/musiguru.scss */
+.tabrow li:after {
+  right: -7px;
+  border-top-left-radius: 1px;
+  border-width: 1px 0px 0px 1px;
+  box-shadow: -1px 0px 0 #ECECEC;
+}
+
+/* line 705, ../sass/musiguru.scss */
+.tabrow li.selected:before {
+  box-shadow: 2px 0px 0 #FFF;
+}
+
+/* line 709, ../sass/musiguru.scss */
+.tabrow li.selected:after {
+  box-shadow: -2px 0px 0 #FFF;
+}
+
+/* line 714, ../sass/musiguru.scss */
+.lession {
+  font-family: "LeagueGothic";
+  font-weight: normal;
+  font-size: 48px;
+  padding-right: 10px;
+  display: table-cell;
+  width: 50px;
+  /*background-color:red;*/
+}
+
+/*.lession
+{
+	font-family:"LeagueGothic";
+	font-weight:normal;
+	font-size:48px;
+	padding-right:10px;
+	color:#dee0e2;
+	
+	
+	width:20%;
+	height:auto;
+	float:left;
+	margin-left:5%;
+	
+}
+.lessionTitle
+{
+	@include mediumArialFont();
+	color:#333333;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	
+	width:63%;
+	height:auto;
+	float:left;
+	margin-top:20px;
+}*/
+/* line 752, ../sass/musiguru.scss */
+.lessionTitle {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+  color: #333333;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  width: 200px;
+  /*background-color:blue;*/
+}
+
+/* line 763, ../sass/musiguru.scss */
+.lessionTitle_section {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+  color: #333333;
+  display: table-cell;
+  vertical-align: middle;
+  /*padding-left:10px;*/
+  width: 210px;
+  /*background-color:blue;*/
+}
+
+/* line 772, ../sass/musiguru.scss */
+.ch_title {
+  width: 180px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+/* line 779, ../sass/musiguru.scss */
+.ch_sel {
+  /*display: table-cell;*/
+  width: 10px;
+}
+
+/* line 787, ../sass/musiguru.scss */
+.ch_title, .ch_sel {
+  float: left;
+}
+
+/* line 795, ../sass/musiguru.scss */
+.Lesson-Content-Container {
+  border-bottom: 1px solid #D9E2EB;
+  background: none repeat scroll 0 0 #E9E8E7;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+/* line 805, ../sass/musiguru.scss */
+#content {
+  margin-top: -20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* line 810, ../sass/musiguru.scss */
+.chapters-content {
+  height: 450px;
+  border-radius: 5px;
+  clear: both;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+/* line 818, ../sass/musiguru.scss */
+.instructions {
+  height: 50px;
+  width: 84px;
+  font-family: Arial;
+  font-size: 12px;
+  border-top-left-radius: 5px;
+  float: left;
+}
+/* line 825, ../sass/musiguru.scss */
+.instructions img {
+  margin-top: 6px;
+}
+
+/* line 830, ../sass/musiguru.scss */
+.practice {
+  height: 50px;
+  width: 84px;
+  font-family: Arial;
+  font-size: 12px;
+  float: left;
+}
+/* line 836, ../sass/musiguru.scss */
+.practice img {
+  margin-top: 6px;
+}
+
+/* line 841, ../sass/musiguru.scss */
+.record {
+  height: 50px;
+  width: 86px;
+  font-family: Arial;
+  font-size: 12px;
+  float: left;
+}
+/* line 847, ../sass/musiguru.scss */
+.record img {
+  margin-top: 6px;
+}
+
+/* line 852, ../sass/musiguru.scss */
+.review {
+  font-family: Arial;
+  font-size: 12px;
+  height: 50px;
+  width: 82px;
+  border-top-right-radius: 5px;
+  float: left;
+}
+/* line 859, ../sass/musiguru.scss */
+.review img {
+  margin-top: 6px;
+}
+
+/* line 866, ../sass/musiguru.scss */
+.lessonboard .instructions, .lessonboard .practice, .lessonboard .record, .lessonboard .review {
+  width: 105px;
+}
+
+/* line 872, ../sass/musiguru.scss */
+.selected {
+  background-color: rgba(255, 255, 255, 0.65);
+  border: 0px;
+}
+
+/* line 877, ../sass/musiguru.scss */
+.unselected {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #999999;
+  border-right-color: #000000;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+/* line 887, ../sass/musiguru.scss */
+.unselected-no-border {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #999999;
+  border: 0px;
+}
+
+/* line 893, ../sass/musiguru.scss */
+.review.unselected {
+  border: 0px;
+}
+
+/* line 899, ../sass/musiguru.scss */
+#store_icon img {
+  margin-top: 20px;
+}
+
+/* line 904, ../sass/musiguru.scss */
+.videoDescContainer {
+  background-color: white;
+  /*margin:10px 20px 10px 10px;*/
+  margin: 13px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: 205px;
+}
+
+/* line 912, ../sass/musiguru.scss */
+.Lesson-Module {
+  height: 62px;
+}
+/* line 914, ../sass/musiguru.scss */
+.Lesson-Module #banner {
+  position: absolute;
+  width: 100%;
+}
+/* line 918, ../sass/musiguru.scss */
+.Lesson-Module .shadow {
+  position: relative;
+}
+
+/* line 922, ../sass/musiguru.scss */
+.Lesson-Module-guru {
+  display: table;
+  padding: 5px;
+}
+/* line 926, ../sass/musiguru.scss */
+.Lesson-Module-guru img {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 930, ../sass/musiguru.scss */
+.Lesson-Module-guru span {
+  display: table-cell;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+/* line 937, ../sass/musiguru.scss */
+.rightArrow {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 108px;
+}
+
+/* line 944, ../sass/musiguru.scss */
+.selected-lesson-img {
+  height: 77px;
+  float: right;
+}
+
+/* line 954, ../sass/musiguru.scss */
+a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+}
+
+/* line 962, ../sass/musiguru.scss */
+nav {
+  display: block;
+  padding: 0px 0px;
+  width: 100%;
+}
+/* line 963, ../sass/musiguru.scss */
+nav ul#chapters {
+  list-style: none;
+  font-family: "Calibri", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 965, ../sass/musiguru.scss */
+nav ul#chapters li {
+  margin-top: -10px;
+  height: 87px;
+  border-bottom: 1px solid #d9e2eb;
+  display: block;
+}
+/* line 970, ../sass/musiguru.scss */
+nav ul#chapters li a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+/* line 979, ../sass/musiguru.scss */
+nav ul#chapters li a:hover {
+  color: #999;
+}
+
+/* line 990, ../sass/musiguru.scss */
+.lession-list-highlighter {
+  /*float:right;*/
+}
+
+/*.unselected-lession-list
+{
+	img.lession-list-highlighter
+	{
+		display:none;		
+	}
+	.lession
+	{
+		color:#DEE0E2;
+	}
+	color:#333333;
+	
+}
+.selected-lession-list
+{
+	img.lession-list-highlighter
+	{
+		display:table;		
+	}
+	.lession
+	{
+		color:#666;
+	}
+	color:#000;
+}
+.chapterTemplateClass
+{
+	cursor:pointer;
+	clear:both;
+	width:100%;
+	height:75px;
+	border-bottom: 1px solid #d9e2eb;
+	top:0px !important;
+}*/
+/* line 1028, ../sass/musiguru.scss */
+.chapterTemplateClass {
+  border-bottom: 1px solid #d9e2eb;
+  display: table;
+  /*padding-left:10px;*/
+  width: 100%;
+}
+
+/* line 1035, ../sass/musiguru.scss */
+.unselected-lession-list {
+  color: #333333;
+}
+/* line 1037, ../sass/musiguru.scss */
+.unselected-lession-list img.lession-list-highlighter {
+  display: none;
+  padding-left: 10px;
+}
+/* line 1042, ../sass/musiguru.scss */
+.unselected-lession-list .lession {
+  color: #DEE0E2;
+  display: table-cell;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+/* line 1051, ../sass/musiguru.scss */
+.selected-lession-list {
+  color: #000;
+}
+/* line 1053, ../sass/musiguru.scss */
+.selected-lession-list img.lession-list-highlighter {
+  display: table-cell;
+  padding-left: 10px;
+  margin-left: -9px;
+}
+/* line 1059, ../sass/musiguru.scss */
+.selected-lession-list .lession {
+  color: #666;
+  display: table-cell;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url("../fonts/League_Gothic-webfont.eot");
+  src: local("☺"), url("../fonts/League_Gothic-webfont.woff") format("woff"), url("../fonts/League_Gothic-webfont") format("truetype"), url("../fonts/League_Gothic-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1074, ../sass/musiguru.scss */
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* line 1080, ../sass/musiguru.scss */
+.overlay-white-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.65);
+  position: relative;
+}
+
+/* line 1087, ../sass/musiguru.scss */
+.loading_circle {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+/* line 1093, ../sass/musiguru.scss */
+.loading_circle_lessonboard {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+/* line 1108, ../sass/musiguru.scss */
+.explore_loading_circle {
+  position: absolute;
+  top: 350px;
+  left: 440px;
+  min-height: 10px;
+  z-index: 10px;
+}
+
+/* line 1112, ../sass/musiguru.scss */
+.postlgn_library_loading_circle {
+  position: absolute;
+  top: 285px;
+  left: 440px;
+  min-height: 10px;
+  z-index: 10px;
+}
+
+/* line 1116, ../sass/musiguru.scss */
+.modules_loading_circle {
+  position: absolute;
+  top: 150px;
+  left: 440px;
+  min-height: 10px;
+  z-index: 10px;
+}
+
+/* line 1122, ../sass/musiguru.scss */
+#chaptersNav {
+  height: 100%;
+}
+
+/* line 1126, ../sass/musiguru.scss */
+#module_content {
+  height: 100%;
+}
+
+/* line 1129, ../sass/musiguru.scss */
+.jspTrack, .jspDrag {
+  border-radius: 2px;
+}
+
+/* line 1135, ../sass/musiguru.scss */
+.module-selected img.rightArrow {
+  display: block;
+}
+
+/* line 1141, ../sass/musiguru.scss */
+.module-unselected img.rightArrow {
+  display: none;
+}
+
+/* line 1145, ../sass/musiguru.scss */
+.downloadSongContainer {
+  height: 70px !important;
+}
+
+/* popup_box DIV-Styles*/
+/* line 1150, ../sass/musiguru.scss */
+.box {
+  background: #fefefe;
+  border: 1px solid #C3D4DB;
+  border-top: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 1px;
+  color: #444;
+  margin: 0 auto 30px;
+  overflow: hidden;
+  margin: 20px 0px;
+}
+
+/* line 1167, ../sass/musiguru.scss */
+.box.login {
+  height: 270px;
+  width: 330px;
+  position: absolute;
+  /* margin-left: 9px;*/
+  /*
+  left:50%;
+  top:50%;
+  margin:-130px 0 0 -166px;
+  */
+}
+
+/* line 1180, ../sass/musiguru.scss */
+.box.signup {
+  width: 332px;
+  /*left:50%;
+  top:50%;
+  margin:-130px 0 0 -166px;*/
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1192, ../sass/musiguru.scss */
+.boxBody {
+  background: #fefefe;
+  border-top: 1px solid #dde0e8;
+  border-bottom: 1px solid #dde0e8;
+  padding: 10px 20px;
+  /*
+      background:#fefefe;
+      
+      border-top:1px solid #dde0e8;
+      border-bottom:1px solid #dde0e8;
+      	
+      padding:10px 20px;
+      */
+  /*  height:240px;*/
+}
+
+/* line 1211, ../sass/musiguru.scss */
+.loginBoxBody {
+  background: #fefefe;
+  border-top: 1px solid #dde0e8;
+  border-bottom: 1px solid #dde0e8;
+  padding: 10px 20px;
+}
+
+/* line 1218, ../sass/musiguru.scss */
+.box footer {
+  background: #eff4f6;
+  border-top: 1px solid #fff;
+  padding: 17px 26px;
+  overflow: hidden;
+  height: 40px;
+}
+
+/* line 1227, ../sass/musiguru.scss */
+.signup footer, .login footer {
+  background: #eff4f6;
+  border-top: 1px solid #fff;
+  padding: 12px 26px;
+  overflow: hidden;
+  height: 47px;
+}
+
+/* line 1235, ../sass/musiguru.scss */
+.box label {
+  display: block;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  margin: 10px 0 0 6px;
+  line-height: 14px !important;
+}
+
+/* line 1242, ../sass/musiguru.scss */
+.box footer label {
+  float: left;
+  margin: 4px 0 0;
+}
+
+/* line 1246, ../sass/musiguru.scss */
+.box footer input[type=checkbox] {
+  vertical-align: sub;
+  *vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* line 1257, ../sass/musiguru.scss */
+.box input[type=text],
+.box input[type=password],
+.box input[type=email],
+.txtField,
+.box input[type=number],
+.cjComboBox {
+  border: 2px solid #F7F9FA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  margin: 3px 0 4px;
+  padding: 8px 6px;
+  width: 270px;
+  display: block;
+}
+
+/* line 1276, ../sass/musiguru.scss */
+.box input[type=text]:focus,
+.box input[type=password]:focus,
+.box input[type=email]:focus,
+.txtField:focus,
+.box input[type=number],
+.cjComboBox:focus {
+  border: 2px solid #f0f7fc;
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  color: #333;
+}
+
+/* line 1284, ../sass/musiguru.scss */
+.cjComboBox {
+  width: 294px;
+}
+
+/* line 1288, ../sass/musiguru.scss */
+.cjComboBox.small {
+  padding: 3px 2px 3px 6px;
+  width: 100px;
+  border-width: 3px !important;
+}
+
+/* line 1294, ../sass/musiguru.scss */
+.txtField.small {
+  padding: 3px 6px;
+  width: 200px;
+  border-width: 3px !important;
+}
+
+/* line 1300, ../sass/musiguru.scss */
+.rLink {
+  padding: 0 6px 0 0;
+  font-size: 11px;
+  float: right;
+}
+
+/* line 1301, ../sass/musiguru.scss */
+.box a {
+  color: #999;
+}
+
+/* line 1302, ../sass/musiguru.scss */
+.box a:hover, .box a:focus {
+  text-decoration: underline;
+}
+
+/* line 1303, ../sass/musiguru.scss */
+.box a:active {
+  color: #f84747;
+}
+
+/* line 1305, ../sass/musiguru.scss */
+.btnLogin {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 15px;
+  background: #f2b33d !important;
+  background: -moz-linear-gradient(top, #f6b846, #eaac37);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6b846), to(#eaac37));
+  cursor: pointer;
+  padding: 11px 16px;
+  font: bold 11px/14px Verdana, Tahomma, Geneva;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0px;
+  color: #333;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  margin-left: 12px;
+  float: right;
+  padding: 7px 21px;
+  height: 35px;
+  border-radius: 3px;
+  border: #e4a735;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* line 1331, ../sass/musiguru.scss */
+.redButton {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 15px;
+  background: #d61e2e;
+  background: -moz-linear-gradient(top, #e02b3b, #cb1a29);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02b3b), to(#cb1a29));
+  cursor: pointer;
+  padding: 11px 16px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0px;
+  color: #fff;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  margin-left: 12px;
+  float: right;
+  padding: 7px 21px;
+  height: 35px;
+  border-radius: 3px;
+  border: #b41220;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 17px;
+  margin-right: 27px;
+}
+
+/* line 1357, ../sass/musiguru.scss */
+.redButton:hover,
+.redButton:focus,
+.redButton:active {
+  background: #d61e2e;
+  background: -moz-linear-gradient(top, #e02b3b, #cb1a29);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02b3b), to(#cb1a29));
+  height: 35px;
+  border-radius: 3px;
+  border: #b41220;
+}
+
+/* line 1366, ../sass/musiguru.scss */
+.redButton:active {
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0px;
+}
+
+/* line 1370, ../sass/musiguru.scss */
+.blueButton {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 15px;
+  background: #0089e0;
+  background: -moz-linear-gradient(top, #0792ea, #0089e0);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0792ea), to(#0089e0));
+  cursor: pointer;
+  padding: 11px 16px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0px;
+  color: #fff;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+  margin-left: 12px;
+  float: right;
+  padding: 7px 21px;
+  height: 35px;
+  border-radius: 3px;
+  border: #b41220;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* line 1396, ../sass/musiguru.scss */
+.blueButton:hover,
+.blueButton:focus,
+.blueButton:active {
+  background: #d61e2e;
+  background: -moz-linear-gradient(top, #0792ea, #0089e0);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0792ea), to(#0089e0));
+  height: 35px;
+  border-radius: 3px;
+  border: #006db3;
+}
+
+/* line 1405, ../sass/musiguru.scss */
+.blueButton:active {
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0px;
+}
+
+/* line 1408, ../sass/musiguru.scss */
+fieldset {
+  border: 0px;
+}
+
+/* line 1413, ../sass/musiguru.scss */
+.btnLogin:hover,
+.btnLogin:focus,
+.btnLogin:active {
+  background: #f2b33d;
+  background: -moz-linear-gradient(top, #f6b846, #eaac37);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6b846), to(#eaac37));
+  height: 35px;
+  border-radius: 3px;
+  border: #e4a735;
+}
+
+/* line 1422, ../sass/musiguru.scss */
+.btnLogin:active {
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0px;
+}
+
+/* line 1425, ../sass/musiguru.scss */
+*:focus {
+  outline: none;
+}
+
+/* popup_box DIV-Styles*/
+/* line 1429, ../sass/musiguru.scss */
+#popup_box {
+  display: none;
+  /* Hide the DIV */
+  position: fixed;
+  _position: absolute;
+  /* hack for internet explorer 6 */
+  /*height:400px;  
+  width:700px;  */
+  height: 330px;
+  width: 334px;
+  background: #FFFFFF;
+  /*left: 300px;*/
+  left: 35%;
+  /*top: 150px;*/
+  top: 200px;
+  z-index: 1001;
+  /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+  margin-left: 15px;
+  /* additional features, can be omitted */
+  border: 2px solid #ff0000;
+  padding: 15px;
+  font-size: 15px;
+  -moz-box-shadow: 0 0 5px #ff0000;
+  -webkit-box-shadow: 0 0 5px #ff0000;
+  box-shadow: 0 0 5px #ff0000;
+  border: 1px solid #333;
+  border-radius: 2px;
+  box-shadow: 0 0 8px #666;
+}
+
+/* line 1459, ../sass/musiguru.scss */
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1464, ../sass/musiguru.scss */
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* This is for the positioning of the Close Link */
+/* line 1470, ../sass/musiguru.scss */
+#popupBoxClose {
+  font-size: 20px;
+  line-height: 15px;
+  right: 5px;
+  top: 12px;
+  position: absolute;
+  color: #6fa5e2;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* line 1481, ../sass/musiguru.scss */
+.popBoxContentContainer {
+  /*width:700px;*/
+  width: 350px;
+  height: 400px;
+}
+
+/* line 1487, ../sass/musiguru.scss */
+.popupBoxLeft {
+  width: 500px;
+  height: 300px;
+}
+
+/* line 1492, ../sass/musiguru.scss */
+.popupBoxRight {
+  width: 500px;
+  height: 300px;
+}
+
+/* line 1499, ../sass/musiguru.scss */
+.popBoxTitle {
+  font: normal 20px/21px Arial, Helvetica, Sans-serif;
+  text-align: center;
+}
+
+/* line 1505, ../sass/musiguru.scss */
+.formCntrlDivContanier {
+  width: 500px;
+  margin-top: 10px;
+}
+
+/* line 1510, ../sass/musiguru.scss */
+.cntrlLeft {
+  float: left;
+}
+
+/* line 1514, ../sass/musiguru.scss */
+.cntrlRight {
+  float: right;
+}
+
+/* line 1518, ../sass/musiguru.scss */
+.termsDiv {
+  width: 475px;
+}
+
+/* line 1521, ../sass/musiguru.scss */
+#home_popup_box {
+  display: none;
+  /* Hide the DIV */
+  position: fixed;
+  _position: absolute;
+  /* hack for internet explorer 6 */
+  /*height:500px;  */
+  background: #FFFFFF;
+  left: 28%;
+  top: 100px;
+  z-index: 999999;
+  /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+  margin-left: 15px;
+  /* additional features, can be omitted */
+  border: 2px solid #ff0000;
+  padding: 15px;
+  font-size: 15px;
+  -moz-box-shadow: 0 0 5px #ff0000;
+  -webkit-box-shadow: 0 0 5px #ff0000;
+  box-shadow: 0 0 5px #ff0000;
+  border: 1px solid #333;
+  border-radius: 2px;
+  box-shadow: 0 0 8px #666;
+  min-height: 525px;
+  height: auto !important;
+  height: 500px;
+  width: 500px;
+}
+
+/* line 1551, ../sass/musiguru.scss */
+#home_page_container {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1556, ../sass/musiguru.scss */
+.homePopBoxContentContainer {
+  width: 100%;
+  height: 400px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1564, ../sass/musiguru.scss */
+.homBoxBody {
+  background: #fefefe;
+  border-top: 1px solid #dde0e8;
+  border-bottom: 1px solid #dde0e8;
+  padding: 10px 20px;
+  height: 240px;
+}
+
+/* line 1573, ../sass/musiguru.scss */
+.homeBox.login {
+  height: 320px;
+  width: 332px;
+  position: absolute;
+}
+
+/* line 1580, ../sass/musiguru.scss */
+.symphonyContainer {
+  width: 100%;
+}
+
+/* line 1584, ../sass/musiguru.scss */
+.symphonyLeftContainer {
+  width: 27%;
+  float: left;
+  font-size: 22px;
+  margin-right: 20px;
+  padding-top: 10px;
+  text-align: right;
+}
+
+/*.symphonyRightContainer
+{
+    width:70%;
+    float:left;
+}*/
+/* line 1598, ../sass/musiguru.scss */
+.loginLink {
+  cursor: pointer;
+  text-align: right;
+  font-size: 14px !important;
+  font-weight: normal;
+  line-height: 20px;
+  color: #787878;
+  font-family: 'Ruluko', sans-serif;
+}
+
+/* line 1607, ../sass/musiguru.scss */
+.loginLink:hover {
+  color: #000;
+}
+
+/* line 1611, ../sass/musiguru.scss */
+.termsLink {
+  text-decoration: none !important;
+  font-size: 12px;
+}
+
+/* line 1616, ../sass/musiguru.scss */
+.guruDivContainer {
+  margin-left: 100px;
+}
+
+/* line 1620, ../sass/musiguru.scss */
+#music-file {
+  margin-left: 100px;
+}
+
+/* line 1624, ../sass/musiguru.scss */
+.symphonyStepsContainer {
+  margin-top: 100px;
+}
+
+/* line 1628, ../sass/musiguru.scss */
+.stepsTitle {
+  font-size: 22px;
+}
+
+/* line 1632, ../sass/musiguru.scss */
+.homePopBoxContentContainer {
+  width: 100%;
+  height: 400px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1640, ../sass/musiguru.scss */
+.homBoxBody {
+  background: #fefefe;
+  border-top: 1px solid #dde0e8;
+  border-bottom: 1px solid #dde0e8;
+  padding: 10px 20px;
+  height: 240px;
+}
+
+/* line 1649, ../sass/musiguru.scss */
+.homeBox.login {
+  height: 320px;
+  width: 332px;
+  position: absolute;
+}
+
+/* line 1656, ../sass/musiguru.scss */
+.symphonyContainer {
+  width: 100%;
+}
+
+/* line 1660, ../sass/musiguru.scss */
+.symphonyLeftContainer {
+  width: 27%;
+  float: left;
+  font-size: 22px;
+  margin-right: 20px;
+  padding-top: 10px;
+  text-align: right;
+}
+
+/*.symphonyRightContainer
+{
+    width:70%;
+    float:left;
+}*/
+/* line 1674, ../sass/musiguru.scss */
+.loginLink {
+  cursor: pointer;
+  text-align: right;
+  font-size: 14px !important;
+  font-weight: normal;
+  line-height: 20px;
+  color: #787878;
+  font-family: 'Ruluko', sans-serif;
+}
+
+/* line 1683, ../sass/musiguru.scss */
+.loginLink:hover {
+  color: #000;
+}
+
+/* line 1687, ../sass/musiguru.scss */
+.termsLink {
+  text-decoration: none !important;
+  font-size: 12px;
+}
+
+/* line 1692, ../sass/musiguru.scss */
+.guruDivContainer {
+  margin-left: 100px;
+}
+
+/* line 1696, ../sass/musiguru.scss */
+#music-file {
+  margin-left: 100px;
+}
+
+/* line 1700, ../sass/musiguru.scss */
+.symphonyStepsContainer {
+  margin-top: 100px;
+}
+
+/* line 1704, ../sass/musiguru.scss */
+.stepsTitle {
+  font-size: 22px;
+}
+
+/* line 1710, ../sass/musiguru.scss */
+p, hr, h1, h2, h3 {
+  margin: 10px 0 10px;
+}
+
+/* line 1711, ../sass/musiguru.scss */
+#wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+
+/* line 1712, ../sass/musiguru.scss */
+.code {
+  margin: 0 0 10px 0;
+  padding: 15px;
+  border: 2px solid #999;
+}
+
+/* BUTTON STYLING FROM HERE DOWN *****************************/
+/* line 1716, ../sass/musiguru.scss */
+div.clearbutton {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 1px;
+}
+
+/* GLOBAL YELLOW BUTTON *****************************/
+/* line 1720, ../sass/musiguru.scss */
+a.GlobalYellowButton span {
+  background: transparent url("../images/button_left_yellow.png") no-repeat 0 0;
+  display: block;
+  line-height: 22px;
+  padding: 7px 0 10px 18px;
+  color: #333;
+}
+
+/* line 1722, ../sass/musiguru.scss */
+a.GlobalYellowButton {
+  background: transparent url("../images/button_right_yellow.png") no-repeat top right;
+  display: block;
+  float: left;
+  height: 40px;
+  margin-right: 6px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* line 1726, ../sass/musiguru.scss */
+a.GlobalYellowButton:hover span {
+  background-position: 0 -40px;
+  color: #333;
+}
+
+/* line 1727, ../sass/musiguru.scss */
+a.GlobalYellowButton:hover {
+  background-position: right -40px;
+}
+
+/* GLOBAL RED BUTTON *****************************/
+/* line 1731, ../sass/musiguru.scss */
+.GlobalRedButton span {
+  background: transparent url("../images/button_left_red.png") no-repeat 0 0;
+  display: block;
+  line-height: 22px;
+  padding: 7px 0 10px 18px;
+  color: #fff;
+}
+
+/* line 1733, ../sass/musiguru.scss */
+a.GlobalRedButton {
+  background: transparent url("../images/button_right_red.png") no-repeat top right;
+  display: block;
+  float: left;
+  height: 40px;
+  margin-right: 6px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* line 1737, ../sass/musiguru.scss */
+a.GlobalRedButton:hover span {
+  background-position: 0 -40px;
+  color: #fff;
+}
+
+/* line 1738, ../sass/musiguru.scss */
+a.GlobalRedButton:hover {
+  background-position: right -40px;
+}
+
+/* line 1741, ../sass/musiguru.scss */
+.rightButton {
+  float: right;
+}
+
+/* line 1745, ../sass/musiguru.scss */
+.centerButton {
+  margin-left: 45%;
+}
+
+/* line 1749, ../sass/musiguru.scss */
+.registrationTitle {
+  text-align: center;
+  font-size: 23px;
+}
+
+/* line 1754, ../sass/musiguru.scss */
+.registrationcontent {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 1758, ../sass/musiguru.scss */
+label {
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+
+/* line 1763, ../sass/musiguru.scss */
+#enroll-guruemail-note {
+  font-size: 11px;
+}
+
+/* line 1766, ../sass/musiguru.scss */
+.loadingcircle {
+  position: fixed;
+  top: 50%;
+  left: 45%;
+}
+
+/* line 1774, ../sass/musiguru.scss */
+.symphonyBtnContainer {
+  margin-left: 14%;
+}
+
+/* line 1778, ../sass/musiguru.scss */
+.symphoyBtnInnerContainer {
+  display: inline;
+  float: left;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+/* line 1785, ../sass/musiguru.scss */
+.carnaticSymphonyRegister {
+  margin-left: 50px;
+}
+
+/* line 1789, ../sass/musiguru.scss */
+.signup .homBoxBody {
+  height: 330px;
+}
+
+/* line 1794, ../sass/musiguru.scss */
+.popHeaderContainer {
+  background: #a12828 !important;
+  width: 365px;
+  margin-left: -15px;
+  margin-top: -15px;
+  color: white;
+  height: 50px;
+}
+
+/* line 1803, ../sass/musiguru.scss */
+.homePopHeaderContainer {
+  background: #b53131 !important;
+  width: 531px;
+  margin-left: -15px;
+  margin-top: -15px;
+  color: white;
+  height: 50px;
+  border-bottom: 1px solid #8f2424;
+}
+
+/* line 1813, ../sass/musiguru.scss */
+.popHeaderTitle {
+  padding: 13px;
+  font-size: 22px;
+  padding-left: 51px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* line 1822, ../sass/musiguru.scss */
+.popupFooterText {
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+  top: 10px;
+}
+
+/* line 1830, ../sass/musiguru.scss */
+.responseMsg {
+  position: relative;
+  top: 175px;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* line 1837, ../sass/musiguru.scss */
+.alreadyLogin {
+  position: relative;
+  top: 190px;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* line 1844, ../sass/musiguru.scss */
+.homeLogout {
+  float: none !important;
+  margin-top: 10px;
+}
+
+/* line 1849, ../sass/musiguru.scss */
+.popupHeaderIcon {
+  float: left;
+  width: 40px !important;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* line 1858, ../sass/musiguru.scss */
+.opaqueLayer {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  background-color: #000;
+  z-Index: 99999;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1871, ../sass/musiguru.scss */
+.allSongsTxt {
+  text-indent: 20px;
+}
+
+/* line 1875, ../sass/musiguru.scss */
+.postregstrLessionContainer {
+  width: 625px;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+}
+
+/* line 1883, ../sass/musiguru.scss */
+.postregstrLessionContainer #chapters-Content, .postregstrLessionContainer #chapterInfo {
+  height: 500px !important;
+}
+
+/* line 1888, ../sass/musiguru.scss */
+.postregstrLessionContainer .chapters-content {
+  height: 500px !important;
+}
+
+/* line 1892, ../sass/musiguru.scss */
+.postregstrLessionContainer #chapterInfo .jspPane {
+  top: 20px !important;
+}
+
+/* line 1896, ../sass/musiguru.scss */
+.postregstrLessionContainer .videoDescContainer {
+  min-height: 100px !important;
+}
+
+/* line 1900, ../sass/musiguru.scss */
+.postRegstrTitleContainer {
+  width: 625px;
+  margin-bottom: 30px;
+  font-size: 46px;
+  font-family: 'journal';
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #a12828;
+}
+
+/* line 1911, ../sass/musiguru.scss */
+.lessionTxt {
+  margin-left: 15%;
+}
+
+/* line 1915, ../sass/musiguru.scss */
+.stepbystepTxt {
+  margin-left: 22%;
+}
+
+/* line 1919, ../sass/musiguru.scss */
+.downloadSongContainer {
+  height: 70px !important;
+}
+
+/* line 1923, ../sass/musiguru.scss */
+.downloadLinkContainer {
+  margin-left: 140px;
+  clear: both;
+  margin-top: 50px;
+}
+
+/* line 1929, ../sass/musiguru.scss */
+.downloadLinkContainer a {
+  font-size: 22px;
+}
+
+/* line 1933, ../sass/musiguru.scss */
+.popupBoxRight .login {
+  width: 332px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1940, ../sass/musiguru.scss */
+#detroitRegDiv a {
+  font-family: 'journal';
+  font-size: 30px;
+  font-weight: normal;
+  color: #666666;
+}
+
+/* line 1944, ../sass/musiguru.scss */
+#detroitRegDiv a:hover {
+  color: #000;
+}
+
+/*
+ *search
+ */
+/* line 1952, ../sass/musiguru.scss */
+#searchwrapper {
+  width: 250px;
+  /*follow your image's size*/
+  height: 40px;
+  /*follow your image's size*/
+  background-image: url(../images/fxd_hdr_search_bg.png);
+  background-repeat: no-repeat;
+  /*important*/
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  /*important*/
+  top: 12px;
+}
+
+/* line 1963, ../sass/musiguru.scss */
+#searchwrapper form {
+  display: inline;
+}
+
+/* line 1965, ../sass/musiguru.scss */
+.searchbox {
+  border: 0px !important;
+  background-color: transparent !important;
+  position: absolute;
+  top: 2px !important;
+  left: 5px !important;
+  width: 177px !important;
+  height: 32px !important;
+  color: #fab0b0 !important;
+  font-size: 16px;
+  margin-right: 20px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  input-placeholder: #fab0b0 !important;
+}
+
+/* line 1981, ../sass/musiguru.scss */
+.searchbox::-webkit-input-placeholder {
+  color: #fab0b0;
+}
+
+/* line 1985, ../sass/musiguru.scss */
+.searchbox:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fab0b0;
+}
+
+/* line 1989, ../sass/musiguru.scss */
+.searchbox::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fab0b0;
+}
+
+/* line 1993, ../sass/musiguru.scss */
+.searchbox:-ms-input-placeholder {
+  color: #fab0b0;
+}
+
+/* line 1997, ../sass/musiguru.scss */
+.searchbox_submit {
+  border: 0px;
+  /*important*/
+  background-color: transparent;
+  /*important*/
+  position: absolute;
+  /*important*/
+  left: 177px;
+  width: 36px;
+  height: 36px;
+}
+
+/* line 2006, ../sass/musiguru.scss */
+.quotes {
+  font-family: 'Airbus Special';
+  font-weight: normal;
+  color: #b54646;
+  font-size: 44px;
+  line-height: 5px;
+  position: relative;
+  top: 15px;
+}
+
+/* line 2023, ../sass/musiguru.scss */
+.testmonyContainer {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+/* line 2028, ../sass/musiguru.scss */
+.testmony-desc {
+  line-height: 22px;
+  color: #333333;
+  font-size: 16px;
+}
+
+/* line 2035, ../sass/musiguru.scss */
+.testmony-desc > a {
+  line-height: 22px;
+  float: right;
+  margin-right: 10px;
+  color: #787878;
+  font-size: 12px;
+}
+
+/* line 2044, ../sass/musiguru.scss */
+.testmony-desc-name-white {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/* line 2050, ../sass/musiguru.scss */
+.testmony-desc-name-black {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* line 2056, ../sass/musiguru.scss */
+a {
+  font-size: 16px;
+  font-family: "Ruluko", sans-serif;
+  font-weight: normal;
+}
+
+/* line 2061, ../sass/musiguru.scss */
+a:hover {
+  color: #000;
+}
+
+/* line 2065, ../sass/musiguru.scss */
+.faqTitle {
+  margin-top: 15px;
+  font-family: 'journal';
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: #A12828;
+}
+
+/* line 2075, ../sass/musiguru.scss */
+.faq_area ol {
+  margin-left: 0px;
+  padding-left: 22px;
+}
+
+/* line 2081, ../sass/musiguru.scss */
+.faq_q {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* line 2087, ../sass/musiguru.scss */
+.faq_a {
+  list-style-image: none;
+  list-style-type: none;
+  text-align: justify;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* line 2098, ../sass/musiguru.scss */
+#sub-content-five {
+  display: inline;
+  height: 50;
+  text-align: center;
+}
+/* line 2099, ../sass/musiguru.scss */
+#sub-content-five #libraryDiv {
+  width: 310px;
+  float: left;
+  margin-right: 25px;
+  height: 135px;
+}
+/* line 2105, ../sass/musiguru.scss */
+#sub-content-five #lessionsDiv {
+  width: 252px;
+  float: left;
+}
+/* line 2109, ../sass/musiguru.scss */
+#sub-content-five #lessionDesDiv {
+  width: 355px;
+  float: left;
+}
+
+/* line 2119, ../sass/musiguru.scss */
+.chaptersInfo {
+  font-weight: bold;
+  position: relative;
+}
+/* line 2120, ../sass/musiguru.scss */
+.chaptersInfo span {
+  font-size: 46px;
+  left: 11px;
+  font-family: 'journal';
+  font-weight: normal;
+  color: #a12828;
+  top: -30px;
+}
+/* line 2129, ../sass/musiguru.scss */
+.chaptersInfo p {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  top: -40px;
+  margin: 5px;
+}
+/* line 2134, ../sass/musiguru.scss */
+.chaptersInfo .dividerImage {
+  z-index: -3;
+  position: absolute;
+  top: 10px;
+  height: 670px;
+  overflow: hidden;
+  left: -10px;
+}
+/* line 2143, ../sass/musiguru.scss */
+.chaptersInfo .lessionDivArrowImg {
+  left: 235px;
+}
+
+/* line 2151, ../sass/musiguru.scss */
+.chapterDescInfo {
+  font-weight: bold;
+  position: relative;
+  margin-left: 20px;
+}
+/* line 2152, ../sass/musiguru.scss */
+.chapterDescInfo span {
+  font-size: 46px;
+  left: 11px;
+  font-family: 'journal';
+  font-weight: normal;
+  color: #a12828;
+  margin-left: 20px;
+}
+/* line 2160, ../sass/musiguru.scss */
+.chapterDescInfo p {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  margin-left: 20px;
+}
+/* line 2164, ../sass/musiguru.scss */
+.chapterDescInfo img {
+  left: 250px;
+  position: absolute;
+  top: -10px;
+}
+
+/* line 2174, ../sass/musiguru.scss */
+.home-sub-content-two {
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+/* line 2176, ../sass/musiguru.scss */
+.home-sub-content-two .home-Lesson-Content {
+  width: 300px !important;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 7px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: auto;
+  float: left;
+  margin: 0 !important;
+}
+/* line 2187, ../sass/musiguru.scss */
+.home-sub-content-two .home-chapters-Content {
+  width: 262px !important;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: auto;
+  float: left;
+  margin-top: 0px !important;
+}
+
+/* line 2204, ../sass/musiguru.scss */
+.home-chapterInfo {
+  width: 338px !important;
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: hide;
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: -10px !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+/* line 2228, ../sass/musiguru.scss */
+.guru-name {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/* line 2233, ../sass/musiguru.scss */
+.lesson-title {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+  position: relative;
+  top: -60px;
+  text-align: right;
+  color: #fff;
+  margin-right: 25px;
+}
+
+/* line 2241, ../sass/musiguru.scss */
+.sec_head {
+  font-size: 50px;
+  padding-top: 30px;
+  text-align: center;
+  line-height: 140%;
+  font-family: 'journal';
+}
+
+/* line 2249, ../sass/musiguru.scss */
+.sec_content {
+  border: 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 140%;
+  border: 2px solid transparent;
+  /*width:775px;*/
+  height: auto;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* line 2263, ../sass/musiguru.scss */
+.desc ul {
+  padding: 30px 0px 30px 50px;
+}
+
+/* line 2269, ../sass/musiguru.scss */
+.dividerWrapper {
+  position: relative;
+  min-height: 60px;
+  display: none;
+}
+
+/* line 2275, ../sass/musiguru.scss */
+.dividerWrapper img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* line 2284, ../sass/musiguru.scss */
+.symphonyRightContainer select, .symphonyRightContainer textarea, .symphonyRightContainer input[type="text"], .symphonyRightContainer input[type="password"], .symphonyRightContainer input[type="datetime"], .symphonyRightContainer input[type="datetime-local"], .symphonyRightContainer input[type="date"], .symphonyRightContainer input[type="month"], .symphonyRightContainer input[type="time"], .symphonyRightContainer input[type="week"], .symphonyRightContainer input[type="number"], .symphonyRightContainer input[type="email"], .symphonyRightContainer input[type="url"], .symphonyRightContainer input[type="search"], .symphonyRightContainer input[type="tel"], .symphonyRightContainer input[type="color"], .symphonyRightContainer .uneditable-input, .studentContainer select, .studentContainer textarea, .studentContainer input[type="text"], .studentContainer input[type="password"], .studentContainer input[type="datetime"], .studentContainer input[type="datetime-local"], .studentContainer input[type="date"], .studentContainer input[type="month"], .studentContainer input[type="time"], .studentContainer input[type="week"], .studentContainer input[type="number"], .studentContainer input[type="email"], .studentContainer input[type="url"], .studentContainer input[type="search"], .studentContainer input[type="tel"], .studentContainer input[type="color"], .studentContainer .uneditable-input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear .2s,box-shadow linear .2s;
+  -moz-transition: border linear .2s,box-shadow linear .2s;
+  -o-transition: border linear .2s,box-shadow linear .2s;
+  transition: border linear .2s,box-shadow linear .2s;
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 2305, ../sass/musiguru.scss */
+.symphonyRightContainer label, .symphonyRightContainer input, .symphonyRightContainer select, .symphonyRightContainer textarea, .studentContainer label, .studentContainer input, .studentContainer select, .studentContainer textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+/* line 2313, ../sass/musiguru.scss */
+.symphonyRightContainer input, .symphonyRightContainer textarea, .symphonyRightContainer .uneditable-input, .studentContainer input, .studentContainer textarea, .studentContainer .uneditable-input {
+  margin-left: 0;
+}
+/* line 2317, ../sass/musiguru.scss */
+.symphonyRightContainer input, .symphonyRightContainer select, .symphonyRightContainer textarea, .studentContainer input, .studentContainer select, .studentContainer textarea {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* line 2320, ../sass/musiguru.scss */
+.symphonyRightContainer input[disabled], .symphonyRightContainer select[disabled], .symphonyRightContainer textarea[disabled], .symphonyRightContainer input[readonly], .symphonyRightContainer select[readonly], .symphonyRightContainer textarea[readonly], .studentContainer input[disabled], .studentContainer select[disabled], .studentContainer textarea[disabled], .studentContainer input[readonly], .studentContainer select[readonly], .studentContainer textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eee;
+}
+/* line 2324, ../sass/musiguru.scss */
+.symphonyRightContainer input[type="radio"], .symphonyRightContainer input[type="checkbox"], .studentContainer input[type="radio"], .studentContainer input[type="checkbox"] {
+  line-height: normal;
+  cursor: pointer;
+}
+/* line 2329, ../sass/musiguru.scss */
+.symphonyRightContainer input[type="radio"], .symphonyRightContainer input[type="checkbox"], .studentContainer input[type="radio"], .studentContainer input[type="checkbox"] {
+  margin: -3px 6px 0 !important;
+  display: inline !important;
+}
+/* line 2335, ../sass/musiguru.scss */
+.symphonyRightContainer .formCntrlDivContanier, .studentContainer .formCntrlDivContanier {
+  width: 500px;
+  margin-top: 10px;
+  /*margin-left: 25%;*/
+}
+/* line 2342, ../sass/musiguru.scss */
+.symphonyRightContainer .move_margin_left, .studentContainer .move_margin_left {
+  margin-left: 25%;
+}
+/* line 2348, ../sass/musiguru.scss */
+.symphonyRightContainer .add_student_form_label, .studentContainer .add_student_form_label {
+  text-align: right;
+  vertical-align: middle;
+}
+
+/* line 2355, ../sass/musiguru.scss */
+.categoryContainer {
+  display: table;
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: 1px solid #d9e2eb;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* line 2365, ../sass/musiguru.scss */
+.categoryContainer .left {
+  width: 95%;
+}
+
+/* line 2369, ../sass/musiguru.scss */
+.categoryContainer .right {
+  width: 5%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 2376, ../sass/musiguru.scss */
+.moduleCotainer, .partnerLessonContainer {
+  margin: 30px;
+  border-bottom: 1px solid #d9e2eb;
+  padding-bottom: 30px;
+  display: table;
+  cursor: pointer;
+}
+
+/* line 2386, ../sass/musiguru.scss */
+.moduleData {
+  display: table-cell;
+  vertical-align: top;
+  width: 400px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+/* line 2394, ../sass/musiguru.scss */
+.modulePriceData {
+  display: table-cell;
+  vertical-align: top;
+  width: 250px;
+  padding-left: 30px;
+}
+/* line 2401, ../sass/musiguru.scss */
+.modulePriceData .offerTitleThree {
+  text-decoration: line-through;
+  font-size: 22px;
+  color: #999999;
+}
+/* line 2407, ../sass/musiguru.scss */
+.modulePriceData .offerTitleFour {
+  font-size: 30px;
+  color: #a32828;
+  font-weight: bold;
+}
+/* line 2413, ../sass/musiguru.scss */
+.modulePriceData .offerTitleFive {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d02f2f;
+}
+/* line 2420, ../sass/musiguru.scss */
+.modulePriceData .moduleAuthor {
+  font-size: 16px;
+  color: #f47721;
+}
+
+/* line 2426, ../sass/musiguru.scss */
+.moduleArrow {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+/* line 2432, ../sass/musiguru.scss */
+.moduleImg {
+  border: 1px solid #d9e2eb;
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* line 2439, ../sass/musiguru.scss */
+.partnerHeaderContainer {
+  margin: 0 auto;
+  width: 898px;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  position: relative;
+}
+
+/* line 2447, ../sass/musiguru.scss */
+.student_section {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 20px;
+  /*padding: 10px;*/
+  border: 1px solid #d9e2eb;
+  padding-bottom: 25px;
+}
+
+/* line 2457, ../sass/musiguru.scss */
+.add_student {
+  /*background: red;*/
+  width: 525px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* line 2464, ../sass/musiguru.scss */
+.student_name_col, .student_name_email {
+  float: left;
+  margin: 10px;
+}
+
+/* line 2469, ../sass/musiguru.scss */
+.student_name_col input {
+  width: 200px;
+}
+
+/* line 2473, ../sass/musiguru.scss */
+.student_name_email input {
+  width: 250px;
+}
+
+/* line 2476, ../sass/musiguru.scss */
+.personal_mes_row {
+  margin-left: 10px;
+}
+
+/* line 2480, ../sass/musiguru.scss */
+.add_student_title {
+  font-family: Ruluko;
+  font-size: 30px;
+  color: black;
+  padding: 10px;
+}
+
+/* line 2488, ../sass/musiguru.scss */
+.moduleOuterContainer {
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #d9e2eb;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+/* line 2497, ../sass/musiguru.scss */
+.moduleTitle {
+  font-family: Ruluko;
+  font-size: 30px;
+  color: black;
+}
+
+/* line 2503, ../sass/musiguru.scss */
+.categoryContainer .moduleTitle {
+  color: #333333 !important;
+}
+
+/* line 2507, ../sass/musiguru.scss */
+.categoryTitle {
+  color: #333333 !important;
+  font-size: 26px;
+}
+
+/* line 2512, ../sass/musiguru.scss */
+.categoryContainer .desc {
+  color: #666666 !important;
+  font-size: 17px;
+}
+
+/* line 2517, ../sass/musiguru.scss */
+.partnerLessonContainer {
+  margin: 30px auto 30px auto;
+  font-family: 'Ruluko', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+/* line 2523, ../sass/musiguru.scss */
+.partnerLessonContainer .lessonTitle {
+  display: table-cell;
+  width: 550px;
+  color: #333333;
+}
+/* line 2530, ../sass/musiguru.scss */
+.partnerLessonContainer .partnermoduleTitle {
+  display: table-cell;
+  width: 200px;
+  color: #999999 !important;
+}
+
+/* line 2541, ../sass/musiguru.scss */
+.categoryContainer:last-child,
+.moduleCotainer:last-child,
+.chapterTemplateClass:last-child,
+.partnerLessonContainer:last-child {
+  border-bottom: 0px !important;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+/* line 2548, ../sass/musiguru.scss */
+.showMoreLessons {
+  height: 50px;
+  width: 900px;
+  margin: 0 auto;
+  clear: both;
+  border: 1px solid #d9dfe3;
+  padding: 0px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* line 2562, ../sass/musiguru.scss */
+.breadCombNonSelector {
+  cursor: pointer;
+  font-family: Ruluko;
+  font-size: 18px;
+  color: #999999;
+}
+
+/* line 2569, ../sass/musiguru.scss */
+.breadCombActive {
+  font-family: Ruluko;
+  font-size: 18px;
+  color: #a12828;
+}
+
+/* line 2575, ../sass/musiguru.scss */
+.categoryDesc {
+  font-size: 16px;
+  color: #666666;
+}
+
+/* line 2580, ../sass/musiguru.scss */
+.transparentcontainer .wrapper {
+  /*width: 898px;*/
+  margin: 0 auto;
+}
+
+/*.transparentcontainer .wrapper:first-child
+{
+	padding-top:20px;
+}*/
+/* line 2590, ../sass/musiguru.scss */
+.lessonboardAuthorTitle {
+  font-family: Ruluko;
+  font-size: 16px;
+  color: #e16500;
+  margin-top: 15px;
+}
+
+/* line 2597, ../sass/musiguru.scss */
+.lessonboardTitle {
+  font-family: Ruluko;
+  font-size: 30px;
+  color: black;
+}
+
+/* line 2604, ../sass/musiguru.scss */
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+/* line 2608, ../sass/musiguru.scss */
+.page-loader {
+  width: 958px;
+  border: 1px solid #d9dfe3;
+  /*background-color: red;*/
+  min-height: 500px;
+  margin: 0px auto;
+  position: relative;
+  top: 59px;
+}
+
+/* line 2619, ../sass/musiguru.scss */
+.img-placer {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+/*
+Back to top button 
+*/
+/* line 2630, ../sass/musiguru.scss */
+#back-top {
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+}
+
+/* line 2635, ../sass/musiguru.scss */
+#back-top a {
+  width: 75px;
+  display: block;
+  text-align: center;
+  font: 11px/100% Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #bbb;
+  /* background color transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+/* line 2648, ../sass/musiguru.scss */
+#back-top a:hover {
+  color: #000;
+}
+
+/* arrow icon (span tag) */
+/* line 2652, ../sass/musiguru.scss */
+#back-top span {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin-bottom: 7px;
+  background: #dddddd url(../images/up-arrow.png) no-repeat center center;
+  /* rounded corners */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /* background color transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+/* line 2667, ../sass/musiguru.scss */
+#back-top a:hover span {
+  background-color: #777;
+}
+
+/* line 2671, ../sass/musiguru.scss */
+.verify_mail_section {
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9;
+  margin-top: 35px;
+  height: 260px;
+}
+
+/* line 2682, ../sass/musiguru.scss */
+.verify_mail_dec {
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+/* line 2688, ../sass/musiguru.scss */
+.verify_mail_mes {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* line 2694, ../sass/musiguru.scss */
+.verify_mail_notes {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 2700, ../sass/musiguru.scss */
+.mail_activate_button {
+  border-radius: 3px;
+  border: 1px solid #ef5e1e;
+  color: #ffffff !important;
+  font-size: 17px;
+  text-align: center;
+  width: 230px;
+  line-height: 35px !important;
+  position: relative;
+  margin-right: 0px !important;
+  cursor: pointer;
+  background: -moz-linear-gradient(top, #e85309, #e83a0c);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e85309), to(#e83a0c));
+}
+
+/* line 2716, ../sass/musiguru.scss */
+.resend {
+  border-radius: 3px;
+  border: 1px solid #ef5e1e;
+  color: #ffffff !important;
+  font-size: 17px;
+  text-align: center;
+  line-height: 35px !important;
+  position: relative;
+  margin-right: 0px !important;
+  cursor: pointer;
+  background: #ffffff;
+  width: 230px;
+  background: -moz-linear-gradient(top, #e85309, #e83a0c);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e85309), to(#e83a0c));
+}
+
+/* line 2734, ../sass/musiguru.scss */
+#buttonsection {
+  height: 100px !important;
+  margin-left: 200px !important;
+}
+
+/* line 2740, ../sass/musiguru.scss */
+.lessonboard_activationbutton #buttonsection {
+  height: 100px !important;
+  margin-left: 125px !important;
+}
+
+/* line 2746, ../sass/musiguru.scss */
+.resend, .mail_activate_button {
+  float: left;
+  margin: 20px;
+}
+
+/* line 2753, ../sass/musiguru.scss */
+#act_mes {
+  display: none;
+}
+
+/* line 2758, ../sass/musiguru.scss */
+.act_mes_placeholder_style {
+  color: #FFFFFF;
+  background-color: #999;
+  text-align: center;
+  font-weight: bold;
+  height: 10px;
+  padding: 10px;
+  position: relative;
+  border: 2px solid #999;
+  opacity: 0.9;
+  margin-top: 45px;
+}
+
+/* line 2771, ../sass/musiguru.scss */
+.activate_section {
+  position: relative;
+  margin-top: 30px;
+  top: 10px;
+  left: 25px;
+  background-color: #000;
+  width: 545px;
+  height: 250px;
+  color: #fff;
+}
+
+/* line 2784, ../sass/musiguru.scss */
+.activate_section p {
+  padding: 100px 0px;
+}
+
+/* line 2788, ../sass/musiguru.scss */
+#authuntication_overlay {
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  opacity: 0.8;
+  z-index: 9;
+}
+
+/* line 2797, ../sass/musiguru.scss */
+.studentHeaderContainer {
+  display: table;
+  padding: 10px;
+  background-color: #e9e9e9;
+}
+
+/* line 2803, ../sass/musiguru.scss */
+.studentHeaderContainer .name {
+  display: table-cell;
+  width: 429px;
+  font-size: 22px;
+}
+
+/* line 2810, ../sass/musiguru.scss */
+.studentRow .name {
+  display: table-cell;
+  width: 429px;
+}
+
+/* line 2818, ../sass/musiguru.scss */
+.studentHeaderContainer .email {
+  display: table-cell;
+  width: 429px;
+  font-size: 22px;
+}
+
+/* line 2824, ../sass/musiguru.scss */
+.studentHeaderContainer .remove {
+  display: table-cell;
+  width: 130px;
+  font-size: 22px;
+}
+
+/* line 2833, ../sass/musiguru.scss */
+.studentRow .email {
+  display: table-cell;
+  width: 429px;
+}
+
+/* line 2840, ../sass/musiguru.scss */
+.studentRow .remove {
+  display: table-cell;
+  width: 130px;
+}
+
+/* line 2845, ../sass/musiguru.scss */
+.studentRow .remove img {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/* line 2851, ../sass/musiguru.scss */
+.studentRow {
+  display: table;
+  padding: 10px;
+  border-bottom: 1px solid #d9e2eb;
+}
+
+/* line 2857, ../sass/musiguru.scss */
+.lessonboard_activationbutton {
+  position: absolute;
+  z-index: 9;
+  background-color: #fff;
+  width: 780px;
+  height: 250px;
+  right: 36px;
+  margin-top: 35px;
+  margin-right: 50px;
+  border: 1px solid #444444;
+}
+
+/* line 2871, ../sass/musiguru.scss */
+.viewmorebtn {
+  border-radius: 3px;
+  border: 1px solid #ef5e1e;
+  color: #ffffff !important;
+  font-size: 17px;
+  text-align: center;
+  line-height: 35px !important;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #ffffff;
+  width: 100px;
+  background: -moz-linear-gradient(top, #e85309, #e83a0c);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e85309), to(#e83a0c));
+}
+
+/* line 2889, ../sass/musiguru.scss */
+.acc_notify {
+  font-size: 28px;
+  vertical-align: bottom;
+}
+
+/* line 2895, ../sass/musiguru.scss */
+.usr_fname:after {
+  content: "\00BB";
+}
+
+/* line 2899, ../sass/musiguru.scss */
+.student_pagination {
+  padding-left: 10px;
+}

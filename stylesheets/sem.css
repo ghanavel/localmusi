@@ -1,0 +1,525 @@
+/* line 27, ../sass/sem.scss */
+body {
+  margin: 0px auto;
+  padding: 0px;
+  width: 960px;
+  background: url("../images/body_bg_repeat.png") repeat scroll 0 0 transparent;
+  height: auto;
+  overflow: auto;
+}
+
+/* line 35, ../sass/sem.scss */
+hr {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  display: inline;
+  float: left;
+  width: 960px;
+  margin: 0 10px;
+  background: #FFFFFF;
+  border: 1px dotted red;
+}
+
+/* line 46, ../sass/sem.scss */
+#sub-content-two {
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+}
+/* line 48, ../sass/sem.scss */
+#sub-content-two #Lesson-Content {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: hide;
+}
+/* line 57, ../sass/sem.scss */
+#sub-content-two #chapters-Content {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: hide;
+}
+
+/* line 71, ../sass/sem.scss */
+#chapterInfo {
+  display: inline;
+  float: left;
+  width: 380px;
+  margin: 0 10px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 0px solid #a1a1a1;
+  height: 500px;
+  overflow: hide;
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+/* line 88, ../sass/sem.scss */
+#sub-content-five {
+  display: inline;
+  float: left;
+  margin: 0 10px;
+  height: 50;
+}
+/* line 89, ../sass/sem.scss */
+#sub-content-five #libraryDiv, #sub-content-five #lessionsDiv {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+/* line 92, ../sass/sem.scss */
+#sub-content-five #lessionDesDiv {
+  display: inline;
+  float: left;
+  width: 380px;
+  margin: 0 10px;
+}
+
+/* line 101, ../sass/sem.scss */
+.chaptersInfo {
+  font-weight: bold;
+  position: relative;
+}
+/* line 102, ../sass/sem.scss */
+.chaptersInfo span {
+  color: red;
+  font-size: 20px;
+  left: 11px;
+  font-family: Lucida Handwriting;
+  top: -30px;
+  margin-left: 20px;
+}
+/* line 110, ../sass/sem.scss */
+.chaptersInfo p {
+  color: #363636;
+  font-size: 14px;
+  top: -40px;
+}
+/* line 115, ../sass/sem.scss */
+.chaptersInfo img {
+  left: 200px;
+  position: absolute;
+  top: -10px;
+}
+/* line 121, ../sass/sem.scss */
+.chaptersInfo .lessionDivArrowImg {
+  left: 280px;
+}
+
+/* line 130, ../sass/sem.scss */
+.chapterDescInfo {
+  font-weight: bold;
+  position: relative;
+}
+/* line 131, ../sass/sem.scss */
+.chapterDescInfo span {
+  color: red;
+  font-size: 20px;
+  left: 11px;
+  font-family: Lucida Handwriting;
+  top: -30px;
+  margin-left: 110px;
+}
+/* line 139, ../sass/sem.scss */
+.chapterDescInfo p {
+  color: #363636;
+  font-size: 14px;
+  top: -40px;
+  margin-left: 120px;
+}
+/* line 145, ../sass/sem.scss */
+.chapterDescInfo img {
+  left: 250px;
+  position: absolute;
+  top: -10px;
+}
+
+/* line 153, ../sass/sem.scss */
+#sub-content-one, #sub-content-three, #sub-content-four {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  height: 500px;
+  float: left;
+}
+
+/* line 160, ../sass/sem.scss */
+#sub-content-three {
+  background: #A12828 !important;
+  height: 350px !important;
+  color: #FFFFFF;
+}
+
+/* line 165, ../sass/sem.scss */
+#footer {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  float: left;
+  margin: 0 10px;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  display: inline;
+  float: left;
+  margin: 0 10px;
+  background: #FFFFFF;
+  /* line 177, ../sass/sem.scss */
+  article {
+    display: inline;
+    float: left;
+    width: 700px;
+    margin: 0 10px;
+  }
+
+  /* line 180, ../sass/sem.scss */
+  aside {
+    display: inline;
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+  }
+}
+@media (max-device-width: 960px) {
+  display: inline;
+  float: left;
+  margin: 0 10px;
+  background: #FFFFFF;
+  /* line 187, ../sass/sem.scss */
+  article {
+    display: inline;
+    float: left;
+    width: 940px;
+    margin: 0 10px;
+  }
+
+  /* line 188, ../sass/sem.scss */
+  aside {
+    display: inline;
+    float: left;
+    width: 940px;
+    margin: 0 10px;
+  }
+}
+/* line 198, ../sass/sem.scss */
+a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+}
+
+/* line 206, ../sass/sem.scss */
+nav {
+  display: block;
+  padding: 0px 0px;
+  background: #fff;
+  width: 100%;
+}
+/* line 207, ../sass/sem.scss */
+nav ul#chapters {
+  list-style: none;
+  font-family: "Calibri", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 209, ../sass/sem.scss */
+nav ul#chapters li {
+  border-bottom: 1px solid #d9e2eb;
+  background: #fff;
+  display: block;
+}
+/* line 213, ../sass/sem.scss */
+nav ul#chapters li a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #787878;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+/* line 222, ../sass/sem.scss */
+nav ul#chapters li a:hover {
+  color: #999;
+}
+
+/* line 234, ../sass/sem.scss */
+.header-section {
+  background: url("../images/top_section_img.png") !important;
+  background-repeat: no-repeat;
+  height: 427px !important;
+}
+
+/* line 240, ../sass/sem.scss */
+#abc {
+  height: 45px;
+  left: 680px;
+  position: relative;
+  top: 320px;
+}
+
+/* line 251, ../sass/sem.scss */
+.Lesson-Module-guru {
+  background: none repeat scroll 0 0  #D9E2EB;
+  border-radius: 10px;
+  margin: 10px;
+}
+/* line 255, ../sass/sem.scss */
+.Lesson-Module-guru img {
+  margin: 3px 6px 7px 7px;
+}
+
+/* line 260, ../sass/sem.scss */
+.Lesson-Module {
+  margin: 15px;
+  display: block;
+  height: 60px;
+}
+
+/* line 267, ../sass/sem.scss */
+.guru-name {
+  font-size: 22px;
+  position: relative;
+  top: -20px;
+}
+
+/* line 273, ../sass/sem.scss */
+.lesson-title {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  top: -70px;
+  text-align: right;
+}
+
+/* line 285, ../sass/sem.scss */
+#artists-left {
+  float: left;
+  width: 60%;
+}
+
+/* line 290, ../sass/sem.scss */
+#artists-right {
+  float: left;
+  width: 40%;
+}
+
+/* line 295, ../sass/sem.scss */
+#artists-right span {
+  font-size: 23px;
+  left: 5px;
+  position: relative;
+  top: 5px;
+}
+
+/* line 302, ../sass/sem.scss */
+#artists-right > div {
+  min-height: 80px;
+  width: auto;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+/* line 309, ../sass/sem.scss */
+.artistImage-div {
+  float: left;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 322, ../sass/sem.scss */
+.artist-about {
+  margin-left: 20px;
+  width: 63%;
+  float: left;
+}
+
+/* line 332, ../sass/sem.scss */
+#video {
+  margin-top: 20px;
+}
+
+/* line 335, ../sass/sem.scss */
+#videoDesc {
+  margin-top: 30px;
+}
+
+/* line 338, ../sass/sem.scss */
+iframe {
+  border: 0px gray none;
+}
+
+/* line 343, ../sass/sem.scss */
+.tabrow {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  line-height: 35px;
+  height: 37px;
+  overflow: hidden;
+  font-size: 8px;
+  font-family: arial;
+  position: relative;
+  margin-top: -10px;
+}
+
+/* line 358, ../sass/sem.scss */
+.tabrow li {
+  border: 1px solid #AAA;
+  background: #D1D1D1;
+  background: -o-linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  background: -ms-linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  background: -moz-linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  background: -webkit-linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  background: linear-gradient(top, #ececec 50%, #d1d1d1 100%);
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 white;
+  text-shadow: 0 1px #FFF;
+  margin: 0 -5px;
+  padding: 0 15px;
+}
+
+/* line 377, ../sass/sem.scss */
+.tabrow a {
+  color: #555;
+  text-decoration: none;
+}
+
+/* line 382, ../sass/sem.scss */
+.tabrow li.selected {
+  background: #FFF;
+  color: #333;
+  z-index: 2;
+  border-top-color: #FFF;
+}
+
+/* line 389, ../sass/sem.scss */
+.tabrow:before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-top: 1px solid #AAA;
+  z-index: 1;
+}
+
+/* line 400, ../sass/sem.scss */
+.tabrow li:before,
+.tabrow li:after {
+  border: 1px solid #AAA;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+  height: 6px;
+  content: " ";
+}
+
+/* line 409, ../sass/sem.scss */
+.tabrow li:before {
+  left: -7px;
+  border-top-right-radius: 1px;
+  border-width: 1px 1px 0px 0px;
+  box-shadow: 1px 0px 0 #ECECEC;
+}
+
+/* line 416, ../sass/sem.scss */
+.tabrow li:after {
+  right: -7px;
+  border-top-left-radius: 1px;
+  border-width: 1px 0px 0px 1px;
+  box-shadow: -1px 0px 0 #ececec;
+}
+
+/* line 423, ../sass/sem.scss */
+.tabrow li.selected:before {
+  box-shadow: 2px 0px 0 #FFF;
+}
+
+/* line 427, ../sass/sem.scss */
+.tabrow li.selected:after {
+  box-shadow: -2px 0px 0 white;
+}
+
+/* line 431, ../sass/sem.scss */
+.lession {
+  font-weight: bold;
+  font-size: 42px;
+  padding-right: 10px;
+}
+
+/* line 437, ../sass/sem.scss */
+.lessionTitle {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+/* line 443, ../sass/sem.scss */
+.Lesson-Content-Container {
+  border-bottom: 1px solid #D9E2EB;
+}
+
+/* line 447, ../sass/sem.scss */
+#content {
+  margin-top: -20px;
+}

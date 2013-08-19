@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Ruluko);
+
+body
+{
+padding:0;
+background:url("../images/body_bg_repeat.png") repeat scroll 0 0 transparent;
+
+}
+a {
+font-size: 16px;
+font-family: 'Ruluko', sans-serif;
+font-weight: normal;
+}
+.content
+{
+height:auto;
+color:black;
+width:960px;
+margin:0 auto;
+
+}
+.content_section
+{
+/*margin-left: 70px;*/
+border-left:1px solid #d9dfe3;
+border-right:1px solid #d9dfe3;
+background-color:rgba(255,255,255,0.4);
+}
+.main_logo
+{
+margin-top:50px;
+margin-left:270px;
+}
+.sec_top{
+/*background-image:url('../images/section_top.png');*/
+background: url('../images/terms_banner.jpg') !important;
+background-repeat: no-repeat;
+height: 300px !important;
+}
+.sec_middle
+{
+/*background-image:url('../images/section_middle.png');*/
+height:auto;
+/*width:832px;*/
+}
+
+.sec_head{
+font-size:50px;
+padding-top:30px;
+text-align:center;
+line-height:140%;
+font-family: 'journal';
+}
+.sec_content
+{
+border:2px solid red;
+padding-top:20px;
+padding-bottom:40px;
+padding-left:25px;
+padding-right:25px;
+line-height:140%;
+border:2px solid transparent;
+/*width:775px;*/
+height:auto;
+font-family: 'Ruluko', sans-serif;
+font-weight: normal;
+font-size: 16px;
+}
+footer{
+	height:75px;
+	float:none !important;
+}
+h4{
+	margin:0px;
+	padding:0px;
+}
